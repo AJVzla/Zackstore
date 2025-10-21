@@ -5,16 +5,17 @@ export default function ZackAirsoftCatalog() {
   const [query, setQuery] = useState("");
   const [showCart, setShowCart] = useState(false);
   const [showWishlist, setShowWishlist] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
 
   const [cart, setCart] = useState(() => {
-  const saved = localStorage.getItem("cart");
-  return saved ? JSON.parse(saved) : [];
-});
+    const saved = localStorage.getItem("cart");
+    return saved ? JSON.parse(saved) : [];
+  });
 
-const [wishlist, setWishlist] = useState(() => {
-  const saved = localStorage.getItem("wishlist");
-  return saved ? JSON.parse(saved) : [];
-});
+  const [wishlist, setWishlist] = useState(() => {
+    const saved = localStorage.getItem("wishlist");
+    return saved ? JSON.parse(saved) : [];
+  });
 
   // Cargar catálogo
   useEffect(() => {
@@ -24,15 +25,12 @@ const [wishlist, setWishlist] = useState(() => {
       .catch((err) => console.error("Error cargando catálogo:", err));
   }, []);
 
-  // Cargar carrito y wishlist desde localStorage
-  useEffect(() => {
-    setCart(JSON.parse(localStorage.getItem("cart")) || []);
-    setWishlist(JSON.parse(localStorage.getItem("wishlist")) || []);
-  }, []);
-
   // Guardar en localStorage
   useEffect(() => localStorage.setItem("cart", JSON.stringify(cart)), [cart]);
-  useEffect(() => localStorage.setItem("wishlist", JSON.stringify(wishlist)), [wishlist]);
+  useEffect(
+    () => localStorage.setItem("wishlist", JSON.stringify(wishlist)),
+    [wishlist]
+  );
 
   const formatPrice = (n) =>
     typeof n === "number" ? n.toLocaleString("es-AR") : "-";
@@ -45,6 +43,7 @@ const [wishlist, setWishlist] = useState(() => {
   const addToCart = (item) => {
     if (!cart.find((i) => i.pdf_id === item.pdf_id)) {
       setCart([...cart, item]);
+      setShowCart(true);
     }
   };
 
@@ -54,133 +53,239 @@ const [wishlist, setWishlist] = useState(() => {
     }
   };
 
-  useEffect(() => {
-  window.addEventListener("beforeunload", () => {
-    localStorage.setItem("cart", JSON.stringify(cart));
-    localStorage.setItem("wishlist", JSON.stringify(wishlist));
-  });
-  return () => window.removeEventListener("beforeunload", () => {});
-}, [cart, wishlist]);
-
   const removeFromCart = (id) => setCart(cart.filter((p) => p.pdf_id !== id));
   const removeFromWishlist = (id) =>
     setWishlist(wishlist.filter((p) => p.pdf_id !== id));
 
   const total = cart.reduce((acc, p) => acc + (p.promo || 0), 0);
 
+  // Navbar scroll effect
+  useEffect(() => {
+    const handleScroll = () => {
+      const header = document.querySelector("header");
+      if (window.scrollY > 40) {
+        header.classList.add("bg-black/90", "py-2");
+      } else {
+        header.classList.remove("bg-black/90", "py-2");
+      }
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
     <div className="min-h-screen bg-black text-white p-6 font-orbitron relative">
-      {/* Header */}
-     <header className="fixed top-0 left-0 w-full z-50 bg-black/80 backdrop-blur-md border-b border-lime-400 shadow-md">
-  <div className="max-w-8xl mx-auto flex flex-wrap items-center justify-between gap-4 p-6">
-    <div className="flex align-center"> 
-      <img src="/logo.png" alt="Logo" className="w-10" />
-    <h1 className="text-3xl text-lime-400 px-3">Zack Airsoft Store</h1>
-    </div>
-    <div className="flex items-center gap-4 flex-wrap">
-      <input
-        value={query}
-        onChange={(e) => setQuery(e.target.value)}
-        placeholder="Buscar producto..."
-        className="p-2 text-black rounded outline-none border border-lime-400"
-      />
-      <button
-        onClick={() => setShowWishlist(true)}
-        className="text-lime-400 text-sm hover:text-white"
-      >
-        ❤️ Wishlist ({wishlist.length})
-      </button>
-      <button
-        onClick={() => setShowCart(true)}
-        className="text-lime-400 text-sm hover:text-white"
-      >
-        🛒 Carrito ({cart.length})
-      </button>
+      {/* HEADER */}
+      <header className="fixed top-0 left-0 w-full z-50 bg-black/80 backdrop-blur-md border-b border-lime-400 shadow-md">
+        <div className="max-w-8xl mx-auto flex items-center justify-between gap-4 py-3 px-6 border-lime-400">
+          <a href="#" className="flex items-center">
+            <img src="/logo.png" alt="Logo" className="w-9" />
+            <h1 className="text-xl text-lime-400 px-3">Zack Airsoft Store</h1>
+          </a>
+          
+          {/* Desktop */}
+
+
+          {/* Search and buttons */}
+          <div className="hidden md:flex items-center gap-4">
+            <input
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+              placeholder="Buscar producto..."
+              className="py-1 px-2 text-black rounded outline-none border border-lime-400"
+            />
+            <button
+              onClick={() => setShowWishlist(true)}
+              className="text-lime-400 hover:text-white"
+            >
+              💙 Favoritos ({wishlist.length})
+            </button>
+            <button
+              onClick={() => setShowCart(true)}
+              className="text-lime-400 hover:text-white"
+            >
+              🛒 Carrito ({cart.length})
+            </button>
+          </div>
+
+          {/* Mobile button */}
+          <button
+            className="md:hidden text-lime-400 text-3xl"
+            onClick={() => setMenuOpen(true)}
+          >
+            ☰
+          </button>
+        </div>
+          <nav className="hidden md:flex gap-2 mx-auto text-sm justify-between max-w-8xl mx-auto py-2 px-7 border-lime-400">
+            {Object.keys(catalog).map((cat) => (
+              <button
+                key={cat}
+                onClick={() =>
+                  document
+                    .getElementById(cat)
+                    .scrollIntoView({ behavior: "smooth" })
+                }
+                className="text-white hover:text-lime-400 transition-colors"
+              >
+                {cat}
+              </button>
+            ))}
+          </nav>
+      </header>
       
-    </div>
-  </div>
-</header>
 
+      {/* Mobile Fullscreen Menu */}
+      {menuOpen && (
+        <div className="fixed inset-0 bg-black flex flex-col justify-center items-center gap-6 z-[9998]">
+          {Object.keys(catalog).map((cat) => (
+            <button
+              key={cat}
+              onClick={() => {
+                document
+                  .getElementById(cat)
+                  .scrollIntoView({ behavior: "smooth" });
+                setMenuOpen(false);
+              }}
+              className="text-lime-400 text-xl hover:text-white transition-all"
+            >
+              {cat}
+            </button>
+          ))}
+          <div className="mt-10 flex flex-col items-center gap-4">
+            <button
+              onClick={() => {
+                setShowWishlist(true);
+                setMenuOpen(false);
+              }}
+              className="text-lime-400 hover:text-white"
+            >
+              💙 Favoritos ({wishlist.length})
+            </button>
+            <button
+              onClick={() => {
+                setShowCart(true);
+                setMenuOpen(false);
+              }}
+              className="text-lime-400 hover:text-white"
+            >
+              🛒 Carrito ({cart.length})
+            </button>
+          </div>
 
-      {/* Catálogo */}
+          <button
+            onClick={() => setMenuOpen(false)}
+            className="absolute bottom-10 text-lime-400 text-3xl"
+          >
+            ✖
+          </button>
+        </div>
+      )}
+
+      {/* MAIN CATALOG */}
       <main className="space-y-10 pt-28 max-w-8xl mx-auto p-6">
         {Object.entries(catalog).map(([category, items]) => {
           const filtered = items.filter(matches);
           if (filtered.length === 0) return null;
 
           return (
-            <section key={category}>
+            <section id={category} key={category}>
               <h2 className="text-2xl text-lime-400 mb-4">{category}</h2>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
-                {filtered.map((p) => (
-                  <article
-                    key={p.pdf_id}
-                    className="relative border border-lime-400 rounded-lg p-3 bg-zinc-900 text-white overflow-hidden group hover:shadow-lg hover:shadow-lime-400/30 transition-all duration-300"
-                  >
-                    {/* Imagen */}
-                    <div className="relative h-40 flex items-center justify-center mb-3 bg-gray-800 rounded">
-                      {p.image ? (
-                        <img
-                          src={p.image}
-                          alt={p.name}
-                          className="max-h-full object-contain transition-transform duration-300 group-hover:scale-105"
-                        />
-                      ) : (
-                        <div className="text-sm text-gray-400">Sin imagen</div>
-                      )}
+                {filtered.map((p) => {
+                  const inCart = cart.some((i) => i.pdf_id === p.pdf_id);
+                  return (
+                    <article
+                      key={p.pdf_id}
+                      className="relative border border-lime-400 rounded-lg p-3 bg-zinc-900 text-white overflow-hidden group hover:shadow-lg hover:shadow-lime-400/30 transition-all duration-300"
+                    >
+                      {/* Imagen */}
+                      <div className="relative h-40 flex items-center justify-center mb-3 bg-gray-800 rounded">
+                        {p.image ? (
+                          <img
+                            src={p.image}
+                            alt={p.name}
+                            className="max-h-full object-contain transition-transform duration-300 group-hover:scale-105"
+                          />
+                        ) : (
+                          <div className="text-sm text-gray-400">
+                            Sin imagen
+                          </div>
+                        )}
 
-                      {/* Overlay hover */}
-                      <div className="absolute inset-0 bg-black/60 flex flex-col items-center justify-center gap-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                        <button
-                          className="bg-lime-400 text-black px-3 py-1 rounded text-xs font-semibold hover:bg-lime-500 w-32"
-                          onClick={() => addToCart(p)}
-                        >
-                          🛒 Añadir al carrito
-                        </button>
-                        <button
-                          className="bg-transparent border border-lime-400 text-lime-400 px-3 py-1 rounded text-xs font-semibold hover:bg-lime-400 hover:text-black w-32"
-                          onClick={() => addToWishlist(p)}
-                        >
-                          ❤️ Wishlist
-                        </button>
+                        {/* Overlay hover */}
+                        <div className="absolute inset-0 bg-black/60 flex flex-col items-center justify-center gap-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                          {inCart ? (
+                            <button
+                              className="bg-lime-400 text-black px-2 py-1 rounded text-xs font-semibold hover:bg-lime-500 w-42"
+                              onClick={() => setShowCart(true)}
+                            >
+                              🛒 Ir a la compra
+                            </button>
+                          ) : (
+                            <button
+                              className="bg-transparent border border-lime-400 text-lime-400 px-2 py-1 rounded text-xs font-semibold hover:bg-lime-400 hover:text-black w-42"
+                              onClick={() => addToCart(p)}
+                            >
+                              🛒 Añadir al carrito
+                            </button>
+                          )}
+                          <button
+                            className="bg-transparent border border-lime-400 text-lime-400 px-8 py-1 rounded text-xs font-semibold hover:bg-lime-400 hover:text-black w-42"
+                            onClick={() => addToWishlist(p)}
+                          >
+                            💙 Favoritos
+                          </button>
+                        </div>
                       </div>
-                    </div>
 
-                    <h3 className="font-bold text-sm mb-1">{p.name}</h3>
-                    <div className="flex w-100 justify-end py-2">
-                      <a href={p.link} target="_blank" rel="noreferrer" class="underline text-lime-400 text-xs ">Ver Producto</a>
+                      <h3 className="font-bold text-sm mb-1">{p.name}</h3>
+                      <div className="flex w-full justify-end py-2">
+                        <a
+                          href={p.link}
+                          target="_blank"
+                          rel="noreferrer"
+                          className="underline text-lime-400 text-xs"
+                        >
+                          Ver Producto
+                        </a>
                       </div>
-                    <div className="flex gap-2 items-baseline justify-end">
-                      <span className="line-through text-gray-500 text-xs">
-                        ${formatPrice(p.price)}
-                      </span>
-                      <span className="text-lime-400 font-semibold text-lg">
-                        ${formatPrice(p.promo)}
-                      </span>
-                    </div>
-                  </article>
-                ))}
+                      <div className="flex gap-2 items-baseline justify-end">
+                        <span className="line-through text-gray-500 text-xs">
+                          ${formatPrice(p.price)}
+                        </span>
+                        <span className="text-lime-400 font-semibold text-lg">
+                          ${formatPrice(p.promo)}
+                        </span>
+                      </div>
+                    </article>
+                  );
+                })}
               </div>
             </section>
           );
         })}
+      
       </main>
 
       {/* 🛒 Modal Carrito */}
       {showCart && (
-        <div className="fixed inset-0 bg-black/80 flex justify-center items-center z-50">
-          <div className="bg-zinc-900 border border-lime-400 rounded-xl p-6 w-11/12 max-w-md relative">
+        <div className="fixed inset-0 bg-black/80 backdrop-blur-sm flex justify-center items-center z-[9999]">
+          <div className="bg-zinc-900 border border-lime-400 rounded-xl p-6 w-11/12 max-w-md relative animate-fadeIn">
             <button
               onClick={() => setShowCart(false)}
               className="absolute top-2 right-3 text-lime-400 hover:text-white text-xl"
             >
               ✖
             </button>
-            <h2 className="text-2xl text-lime-400 mb-4">🛒 Carrito</h2>
+            <h2 className="text-2xl text-lime-400 mb-4 text-center">
+              🛒 Carrito
+            </h2>
 
             {cart.length === 0 ? (
-              <p className="text-gray-400">Tu carrito está vacío.</p>
+              <p className="text-gray-400 text-center">
+                Tu carrito está vacío.
+              </p>
             ) : (
               <>
                 <ul className="space-y-3 mb-4 max-h-60 overflow-y-auto">
@@ -209,25 +314,32 @@ const [wishlist, setWishlist] = useState(() => {
                     Total: ${formatPrice(total)}
                   </span>
                   <button
-  className="bg-lime-400 text-black px-4 py-1 rounded font-semibold hover:bg-lime-500"
-  onClick={() => {
-    const phone = "5491154100534"; // <-- tu número WhatsApp Business (con código país, sin +)
-    const message =
-      "🛒 *Nueva compra desde Zack Airsoft Store!*\n\n" +
-      cart
-        .map(
-          (p, i) =>
-            `${i + 1}. ${p.name}\n   💵 Precio: $${formatPrice(p.promo)}`
-        )
-        .join("\n") +
-      `\n\n💰 *Total:* $${formatPrice(total)}\n\nGracias por tu compra! 🔫`;
+                    className="bg-lime-400 text-black px-4 py-1 rounded font-semibold hover:bg-lime-500"
+                    onClick={() => {
+                      const phone = "5491154100534";
+                      const message =
+                        "🛒 *Nueva compra desde Zack Airsoft Store!*\n\n" +
+                        cart
+                          .map(
+                            (p, i) =>
+                              `${i + 1}. ${p.name}\n   💵 Precio: $${formatPrice(
+                                p.promo
+                              )}`
+                          )
+                          .join("\n") +
+                        `\n\n💰 *Total:* $${formatPrice(
+                          total
+                        )}\n\nGracias por tu compra! 🔫`;
 
-    const encoded = encodeURIComponent(message);
-    window.open(`https://wa.me/${phone}?text=${encoded}`, "_blank");
-  }}
->
-  Finalizar compra
-</button>
+                      const encoded = encodeURIComponent(message);
+                      window.open(
+                        `https://wa.me/${phone}?text=${encoded}`,
+                        "_blank"
+                      );
+                    }}
+                  >
+                    Finalizar compra
+                  </button>
                 </div>
               </>
             )}
@@ -237,18 +349,20 @@ const [wishlist, setWishlist] = useState(() => {
 
       {/* ❤️ Modal Wishlist */}
       {showWishlist && (
-        <div className="fixed inset-0 bg-black/80 flex justify-center items-center z-50">
-          <div className="bg-zinc-900 border border-lime-400 rounded-xl p-6 w-11/12 max-w-md relative">
+        <div className="fixed inset-0 bg-black/80 backdrop-blur-sm flex justify-center items-center z-[9999]">
+          <div className="bg-zinc-900 border border-lime-400 rounded-xl p-6 w-11/12 max-w-md relative animate-fadeIn">
             <button
               onClick={() => setShowWishlist(false)}
               className="absolute top-2 right-3 text-lime-400 hover:text-white text-xl"
             >
               ✖
             </button>
-            <h2 className="text-2xl text-lime-400 mb-4">❤️ Wishlist</h2>
+            <h2 className="text-2xl text-lime-400 mb-4 text-center">
+              ❤️ Wishlist
+            </h2>
 
             {wishlist.length === 0 ? (
-              <p className="text-gray-400">Tu lista está vacía.</p>
+              <p className="text-gray-400 text-center">Tu lista está vacía.</p>
             ) : (
               <ul className="space-y-3 max-h-64 overflow-y-auto">
                 {wishlist.map((item) => (

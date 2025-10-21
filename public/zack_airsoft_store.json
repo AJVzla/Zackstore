@@ -1,8 +1,8 @@
 {
-  "WE": [
+  "SECUNDARIAS": [
     {
       "pdf_id": 1,
-      "category": "Pistolas/Marcadoras",
+      "category": "WE",
       "name": "Marcadora WE modelo GLOCK 17 Gen 4 Negra",
       "price": 244600,
       "promo": 232370,
@@ -11,7 +11,7 @@
     },
     {
       "pdf_id": 2,
-      "category": "Pistolas/Marcadoras",
+      "category": "WE",
       "name": "Marcadora WE modelo GLOCK 17 Gen 4 Desert",
       "price": 244600,
       "promo": 232370,
@@ -20,7 +20,7 @@
     },
     {
       "pdf_id": 3,
-      "category": "Pistolas/Marcadoras",
+      "category": "WE",
       "name": "Marcadora WE modelo GLOCK 26 Gen 4 Negra",
       "price": 253100,
       "promo": 240445,
@@ -29,7 +29,7 @@
     },
     {
       "pdf_id": 4,
-      "category": "Pistolas/Marcadoras",
+      "category": "WE",
       "name": "Marcadora WE modelo GLOCK 26 Gen 4 Desert",
       "price": 253100,
       "promo": 240445,
@@ -38,7 +38,7 @@
     },
     {
       "pdf_id": 5,
-      "category": "Pistolas/Marcadoras",
+      "category": "WE",
       "name": "Marcadora WE modelo Sig Sauer F226 Negra",
       "price": 268200,
       "promo": 254790,
@@ -47,7 +47,7 @@
     },
     {
       "pdf_id": 6,
-      "category": "Pistolas/Marcadoras",
+      "category": "WE",
       "name": "Marcadora WE modelo Glock 19 Gen 4 Negra",
       "price": 244600,
       "promo": 232370,
@@ -56,7 +56,7 @@
     },
     {
       "pdf_id": 7,
-      "category": "Pistolas/Marcadoras",
+      "category": "WE",
       "name": "Marcadora WE modelo Glock 19 Gen 4 Desert",
       "price": 244600,
       "promo": 232370,
@@ -65,7 +65,7 @@
     },
     {
       "pdf_id": 8,
-      "category": "Pistolas/Marcadoras",
+      "category": "WE",
       "name": "Marcadora WE modelo Glock 17 Gen 5 Negra",
       "price": 257400,
       "promo": 244530,
@@ -74,7 +74,7 @@
     },
     {
       "pdf_id": 9,
-      "category": "Pistolas/Marcadoras",
+      "category": "WE",
       "name": "Marcadora WE modelo Glock 17 Gen 5 Desert",
       "price": 257400,
       "promo": 244530,
@@ -83,7 +83,7 @@
     },
     {
       "pdf_id": 10,
-      "category": "Pistolas/Marcadoras",
+      "category": "WE",
       "name": "Marcadora WE modelo Glock 18 Gen 4 Negra",
       "price": 268500,
       "promo": 255075,
@@ -92,7 +92,7 @@
     },
     {
       "pdf_id": 11,
-      "category": "Pistolas/Marcadoras",
+      "category": "WE",
       "name": "Marcadora WE modelo Glock 18 Gen 4 Desert",
       "price": 268500,
       "promo": 255075,
@@ -103,7 +103,7 @@
   "MAGAZINE WE": [
     {
       "pdf_id": 12,
-      "category": "Cargadores y Accesorios de Réplicas",
+      "category": "Magazines y Accesorios de Réplicas",
       "name": "Cargador G19/G23",
       "price": 52800,
       "promo": 50160,
@@ -112,7 +112,7 @@
     },
     {
       "pdf_id": 13,
-      "category": "Cargadores y Accesorios de Réplicas",
+      "category": "Magazines y Accesorios de Réplicas",
       "name": "Cargador G26-G27",
       "price": 52800,
       "promo": 50160,
@@ -121,7 +121,7 @@
     },
     {
       "pdf_id": 14,
-      "category": "Cargadores y Accesorios de Réplicas",
+      "category": "Magazines y Accesorios de Réplicas",
       "name": "Cargador F226",
       "price": 55800,
       "promo": 53010,
@@ -130,7 +130,7 @@
     },
     {
       "pdf_id": 15,
-      "category": "Cargadores y Accesorios de Réplicas",
+      "category": "Magazines y Accesorios de Réplicas",
       "name": "Cargador HI-POWER MK3",
       "price": 55800,
       "promo": 53010,
@@ -139,7 +139,7 @@
     },
     {
       "pdf_id": 16,
-      "category": "Cargadores y Accesorios de Réplicas",
+      "category": "Magazines y Accesorios de Réplicas",
       "name": "Cargador G17/18 50 Round",
       "price": 97000,
       "promo": 92150,
@@ -148,7 +148,7 @@
     },
     {
       "pdf_id": 17,
-      "category": "Cargadores y Accesorios de Réplicas",
+      "category": "Magazines y Accesorios de Réplicas",
       "name": "Cargador Glock 17 Gen 5",
       "price": 52800,
       "promo": 50160,
@@ -156,10 +156,10 @@
       "image": "https://weairsoft.com/media/catalog/product/cache/4170928a4fd46ec558d35cca3c571596/w/e/we-g007-magazine-1-4k.png"
     }
   ],
-  "VALKEN": [
+  "BATERIAS Y ACCESORIOS": [
     {
       "pdf_id": 18,
-      "category": "Baterías y Cargadores de Baterías",
+      "category": "Baterías y Magazines de Baterías",
       "name": "Bateria lipo Valken 7.4V 1000mah 30c STICK Mini Tamiya",
       "price": 41000,
       "promo": 38950.00,
@@ -168,7 +168,7 @@
     },
     {
       "pdf_id": 19,
-      "category": "Baterías y Cargadores de Baterías",
+      "category": "Baterías y Magazines de Baterías",
       "name": "Bateria lipo Valken 11V 1000mah 30c STICK Mini Tamiya",
       "price": 59700,
       "promo": 56715.00,
@@ -177,7 +177,7 @@
     },
     {
       "pdf_id": 20,
-      "category": "Baterías y Cargadores de Baterías",
+      "category": "Baterías y Magazines de Baterías",
       "name": "Bateria lipo Valken 7.4V 1200mah 30c STICK Mini Tamiya",
       "price": 41000,
       "promo": 38950.00,
@@ -233,7 +233,7 @@
   "CARGADORES IMAX": [
     {
       "pdf_id": 25,
-      "category": "Baterías y Cargadores de Baterías",
+      "category": "Baterías y cargadores de Baterías",
       "name": "Cargador usb Imax 7.4V 800 mah",
       "price": 7300,
       "promo": 6935.00,
@@ -242,7 +242,7 @@
     },
     {
       "pdf_id": 26,
-      "category": "Baterías y Cargadores de Baterías",
+      "category": "Baterías y cargadores de Baterías",
       "name": "Cargador usb Imax 7.4V 2000 mah",
       "price": 8600,
       "promo": 8170.00,
@@ -251,7 +251,7 @@
     },
     {
       "pdf_id": 27,
-      "category": "Baterías y Cargadores de Baterías",
+      "category": "Baterías y cargadores de Baterías",
       "name": "Cargador usb Imax 11.1V 2000 mah",
       "price": 9300,
       "promo": 8835.00,
@@ -260,7 +260,7 @@
     },
     {
       "pdf_id": 28,
-      "category": "Baterías y Cargadores de Baterías",
+      "category": "Baterías y cargadores de Baterías",
       "name": "Cargador Lipo Imax B3 Pro 10W",
       "price": 19900,
       "promo": 18905.00,
@@ -269,7 +269,7 @@
     },
     {
       "pdf_id": 29,
-      "category": "Baterías y Cargadores de Baterías",
+      "category": "Baterías y cargadores de Baterías",
       "name": "Cargador Lipo Imax B3 20W",
       "price": 30200,
       "promo": 28690.00,
@@ -278,7 +278,7 @@
     },
     {
       "pdf_id": 30,
-      "category": "Baterías y Cargadores de Baterías",
+      "category": "Baterías y cargadores de Baterías",
       "name": "Cargador Lipo Imax B6 80W con fuente",
       "price": 81100,
       "promo": 77045.00,
@@ -287,7 +287,7 @@
     },
     {
       "pdf_id": 31,
-      "category": "Baterías y Cargadores de Baterías",
+      "category": "Baterías y cargadores de Baterías",
       "name": "Cargador usb Imax 7.4V 1300 mah",
       "price": 7900,
       "promo": 7505.00,
@@ -296,7 +296,7 @@
     },
     {
       "pdf_id": 32,
-      "category": "Baterías y Cargadores de Baterías",
+      "category": "Baterías y cargadores de Baterías",
       "name": "Cargador usb Imax 3 slots",
       "price": 22200,
       "promo": 21090.00,
@@ -304,10 +304,10 @@
       "image": "https://http2.mlstatic.com/D_NQ_NP_608144-MLA49791191060_042022-O.webp"
     }
   ],
-  "G&G": [
+  "PRIMARIAS G&G": [
     {
       "pdf_id": 33,
-      "category": "Pistolas/Marcadoras",
+      "category": "Primarias AEG",
       "name": "Marcadora G&G modelo CM 16 Raider",
       "price": 509200,
       "promo": 483740.00,
@@ -316,7 +316,7 @@
     },
     {
       "pdf_id": 34,
-      "category": "Pistolas/Marcadoras",
+      "category": "Primarias AEG",
       "name": "Marcadora G&G modelo CM 16 Carabine Black",
       "price": 476100,
       "promo": 452295.00,
@@ -325,7 +325,7 @@
     },
     {
       "pdf_id": 35,
-      "category": "Pistolas/Marcadoras",
+      "category": "Primarias AEG",
       "name": "Marcadora G&G modelo CM 16 Raider Long Black",
       "price": 509200,
       "promo": 483740.00,
@@ -334,7 +334,7 @@
     },
     {
       "pdf_id": 36,
-      "category": "Pistolas/Marcadoras",
+      "category": "Primarias AEG",
       "name": "Marcadora G&G modelo CM 16 Raider Long Desert",
       "price": 509200,
       "promo": 483740.00,
@@ -343,7 +343,7 @@
     },
     {
       "pdf_id": 37,
-      "category": "Pistolas/Marcadoras",
+      "category": "Primarias AEG",
       "name": "Marcadora G&G modelo CM 16 Carabine Desert",
       "price": 476100,
       "promo": 452295.00,
@@ -352,7 +352,7 @@
     },
     {
       "pdf_id": 38,
-      "category": "Pistolas/Marcadoras",
+      "category": "Primarias AEG",
       "name": "Marcadora G&G modelo CM16 Raider 2.0",
       "price": 543900,
       "promo": 516705.00,
@@ -361,7 +361,7 @@
     },
     {
       "pdf_id": 39,
-      "category": "Pistolas/Marcadoras",
+      "category": "Primarias AEG",
       "name": "Marcadora G&G modelo ARP9 2.0",
       "price": 765400,
       "promo": 727130.00,
@@ -370,7 +370,7 @@
     },
     {
       "pdf_id": 40,
-      "category": "Pistolas/Marcadoras",
+      "category": "Primarias AEG",
       "name": "Marcadora G&G modelo CM18 Mod1",
       "price": 619900,
       "promo": 588905.00,
@@ -379,7 +379,7 @@
     },
     {
       "pdf_id": 41,
-      "category": "Pistolas/Marcadoras",
+      "category": "Primarias AEG",
       "name": "Marcadora G&G modelo CM16 Predator",
       "price": 813300,
       "promo": 772635.00,
@@ -388,7 +388,7 @@
     },
     {
       "pdf_id": 42,
-      "category": "Pistolas/Marcadoras",
+      "category": "Primarias AEG",
       "name": "Marcadora G&G modelo TR16 MBR 556 WH",
       "price": 1163800,
       "promo": 1105610.00,
@@ -397,7 +397,7 @@
     },
     {
       "pdf_id": 43,
-      "category": "Pistolas/Marcadoras",
+      "category": "Primarias AEG",
       "name": "Marcadora G&G modelo SMC-9",
       "price": 843100,
       "promo": 800945.00,
@@ -406,7 +406,7 @@
     },
     {
       "pdf_id": 44,
-      "category": "Pistolas/Marcadoras",
+      "category": "Primarias AEG",
       "name": "Marcadora G&G modelo Fire Hawk",
       "price": 576900,
       "promo": 548055.00,
@@ -415,7 +415,7 @@
     },
     {
       "pdf_id": 45,
-      "category": "Pistolas/Marcadoras",
+      "category": "Primarias AEG",
       "name": "Marcadora G&G modelo FAR 9",
       "price": 662900,
       "promo": 629755.00,
@@ -424,7 +424,7 @@
     },
     {
       "pdf_id": 46,
-      "category": "Pistolas/Marcadoras",
+      "category": "Primarias AEG",
       "name": "Marcadora G&G GPM92 color Desert CO2 6mm",
       "price": 365300,
       "promo": 347035.00,
@@ -497,10 +497,10 @@
       "image": "https://www.ilsemaforo-softair.com/37190-large_default/g-g-tracer-bb-0-28g-g-2700-bb-bottle-green.jpg"
     }
   ],
-  "MAGAZINE G&G": [
+  "MAGAZINES G&G": [
     {
       "pdf_id": 54,
-      "category": "Cargadores y Accesorios de Réplicas",
+      "category": "Magazines y Accesorios de Réplicas",
       "name": "Cargador G&G modelo EGM G-08-030 200 Round",
       "price": 72700,
       "promo": 69065.00,
@@ -509,7 +509,7 @@
     },
     {
       "pdf_id": 55,
-      "category": "Cargadores y Accesorios de Réplicas",
+      "category": "Magazines y Accesorios de Réplicas",
       "name": "Cargador G&G modelo GPM92 27 Round",
       "price": 74400,
       "promo": 70680.00,
@@ -518,7 +518,7 @@
     },
     {
       "pdf_id": 56,
-      "category": "Cargadores y Accesorios de Réplicas",
+      "category": "Magazines y Accesorios de Réplicas",
       "name": "Cargador G&G modelo GPM1911 26 Round",
       "price": 74400,
       "promo": 70680.00,
@@ -527,7 +527,7 @@
     },
     {
       "pdf_id": 57,
-      "category": "Cargadores y Accesorios de Réplicas",
+      "category": "Magazines y Accesorios de Réplicas",
       "name": "Cargador G&G modelo ARP9 300Round",
       "price": 74400,
       "promo": 70680.00,
@@ -536,7 +536,7 @@
     },
     {
       "pdf_id": 58,
-      "category": "Cargadores y Accesorios de Réplicas",
+      "category": "Magazines y Accesorios de Réplicas",
       "name": "Cargador G&G modelo GR16 Midcap 120R",
       "price": 31400,
       "promo": 29830.00,
@@ -545,7 +545,7 @@
     },
     {
       "pdf_id": 59,
-      "category": "Cargadores y Accesorios de Réplicas",
+      "category": "Magazines y Accesorios de Réplicas",
       "name": "Cargador G&G modelo GTP9 HiCap 50R",
       "price": 122300,
       "promo": 116185.00,
@@ -554,7 +554,7 @@
     },
     {
       "pdf_id": 60,
-      "category": "Cargadores y Accesorios de Réplicas",
+      "category": "Magazines y Accesorios de Réplicas",
       "name": "Cargador G&G modelo ARP9 Drum 1500 R",
       "price": 152100,
       "promo": 144495.00,
@@ -563,7 +563,7 @@
     },
     {
       "pdf_id": 61,
-      "category": "Cargadores y Accesorios de Réplicas",
+      "category": "Magazines y Accesorios de Réplicas",
       "name": "Cargador G&G modelo ARP9 170 R",
       "price": 84300,
       "promo": 80085.00,
@@ -572,7 +572,7 @@
     },
     {
       "pdf_id": 62,
-      "category": "Cargadores y Accesorios de Réplicas",
+      "category": "Magazines y Accesorios de Réplicas",
       "name": "Cargador G&G bb speed loader",
       "price": 16500,
       "promo": 15675.00,
@@ -581,7 +581,7 @@
     },
     {
       "pdf_id": 63,
-      "category": "Cargadores y Accesorios de Réplicas",
+      "category": "Magazines y Accesorios de Réplicas",
       "name": "Cargador G&G bb speed loader transparente 420 Round",
       "price": 38000,
       "promo": 36100.00,
@@ -590,7 +590,7 @@
     },
     {
       "pdf_id": 64,
-      "category": "Cargadores y Accesorios de Réplicas",
+      "category": "Magazines y Accesorios de Réplicas",
       "name": "Grip G&G Negro ABS Injection",
       "price": 33100,
       "promo": 31445.00,
@@ -599,7 +599,7 @@
     },
     {
       "pdf_id": 65,
-      "category": "Cargadores y Accesorios de Réplicas",
+      "category": "Magazines y Accesorios de Réplicas",
       "name": "Grip G&G Negro ABS Injection c/picatiny",
       "price": 43800,
       "promo": 41610.00,
@@ -608,7 +608,7 @@
     },
     {
       "pdf_id": 66,
-      "category": "Cargadores y Accesorios de Réplicas",
+      "category": "Magazines y Accesorios de Réplicas",
       "name": "Grip G&G Arena ABS Injection c/picatiny",
       "price": 43800,
       "promo": 41610.00,
@@ -617,7 +617,7 @@
     },
     {
       "pdf_id": 67,
-      "category": "Cargadores y Accesorios de Réplicas",
+      "category": "Magazines y Accesorios de Réplicas",
       "name": "Adaptador para pistola trazador G&g 14MM",
       "price": 33100,
       "promo": 31445.00,
@@ -625,7 +625,7 @@
       "image": "https://images.cults3d.com/Hl5xYm-8Q_79vP8x8eL3j9oI6rQ=/516x516/filters:format(webp)/https://files.cults3d.com/uploaders/20653697/illustration-file/b77f9899-72c1-4c12-9c3a-964205f42c4b/SSG1_Tracer_Adapter_14mm_CCW_2.png"
     }
   ],
-  "LENTES Y ANTIPARRAS PYRAMEX": [
+  "LENTES Y ANTIPARRAS": [
     {
       "pdf_id": 68,
       "category": "Equipamiento de Protección",
@@ -861,7 +861,7 @@
       "image": "https://cdn.pyramexsafety.com/product_images/Loadout/Loadout_Black.png"
     }
   ],
-  "WALKERS PROTECTORES AUDITIVOS": [
+  "PROTECTORES AUDITIVOS": [
     {
       "pdf_id": 94,
       "category": "Equipamiento de Protección",
