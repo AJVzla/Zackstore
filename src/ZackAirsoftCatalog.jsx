@@ -78,7 +78,7 @@ export default function ZackAirsoftCatalog() {
       {/* HEADER */}
       <header className="fixed top-0 left-0 w-full z-50 bg-black/80 backdrop-blur-md border-b border-lime-400 shadow-md">
         <div className="max-w-8xl mx-auto flex items-center justify-between gap-4 py-3 px-6 border-lime-400">
-          <a href="#" className="flex items-center">
+          <a href="https://zackstore-seven.vercel.app/" className="flex items-center">
             <img src="/logo.png" alt="Logo" className="w-9" />
             <h1 className="text-xl text-lime-400 px-3">Zack Airsoft Store</h1>
           </a>
