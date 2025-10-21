@@ -1,0 +1,820 @@
+{
+  "WE": [
+    {
+      "pdf_id": 1,
+      "name": "Marcadora WE modelo GLOCK 17 Gen 4 Negra",
+      "price": 244600,
+      "promo": 232370,
+      "link": "https://weairsoft.com/we-g001b-bk.html",
+      "image": "https://weairsoft.com/media/catalog/product/cache/4170928a4fd46ec558d35cca3c571596/w/e/we-g001b-bk-1-4k.png"
+    },
+    {
+      "pdf_id": 2,
+      "name": "Marcadora WE modelo GLOCK 17 Gen 4 Desert",
+      "price": 244600,
+      "promo": 232370,
+      "link": "https://weairsoft.com/we-g001rdb-tan.html",
+      "image": "https://weairsoft.com/media/catalog/product/cache/4170928a4fd46ec558d35cca3c571596/w/e/we-g001rdb-tan-1-4k.png"
+    },
+    {
+      "pdf_id": 3,
+      "name": "Marcadora WE modelo GLOCK 26 Gen 4 Negra",
+      "price": 253100,
+      "promo": 240445,
+      "link": "https://weairsoft.com/we-g005b-bk.html",
+      "image": "https://weairsoft.com/media/catalog/product/cache/4170928a4fd46ec558d35cca3c571596/w/e/we-g005b-bk-raw1-4k.png"
+    },
+    {
+      "pdf_id": 4,
+      "name": "Marcadora WE modelo GLOCK 26 Gen 4 Desert",
+      "price": 253100,
+      "promo": 240445,
+      "link": "https://weairsoft.com/we-g005rdb-tan.html",
+      "image": "https://weairsoft.com/media/catalog/product/cache/4170928a4fd46ec558d35cca3c571596/w/e/we-g005b-tan-1-4k.png"
+    },
+    {
+      "pdf_id": 5,
+      "name": "Marcadora WE modelo Sig Sauer F226 Negra",
+      "price": 268200,
+      "promo": 254790,
+      "link": "https://weairsoft.com/we-f001-bk.html",
+      "image": "https://weairsoft.com/media/catalog/product/cache/4170928a4fd46ec558d35cca3c571596/w/e/we-f001b-1-4k.png"
+    },
+    {
+      "pdf_id": 6,
+      "name": "Marcadora WE modelo Glock 19 Gen 4 Negra",
+      "price": 244600,
+      "promo": 232370,
+      "link": "https://weairsoft.com/we-g002b-bk.html",
+      "image": "https://weairsoft.com/media/catalog/product/cache/4170928a4fd46ec558d35cca3c571596/w/e/we-g002b-bk-1-4k.png"
+    },
+    {
+      "pdf_id": 7,
+      "name": "Marcadora WE modelo Glock 19 Gen 4 Desert",
+      "price": 244600,
+      "promo": 232370,
+      "link": "https://weairsoft.com/we-g002rdb-tan.html",
+      "image": "https://weairsoft.com/media/catalog/product/cache/4170928a4fd46ec558d35cca3c571596/w/e/we-g002rdb-tan-1-4k.png"
+    },
+    {
+      "pdf_id": 8,
+      "name": "Marcadora WE modelo Glock 17 Gen 5 Negra",
+      "price": 257400,
+      "promo": 244530,
+      "link": "https://weairsoft.com/we-g007b-bk.html",
+      "image": "https://weairsoft.com/media/catalog/product/cache/4170928a4fd46ec558d35cca3c571596/w/e/we-g007b-bk-1-4k.png"
+    },
+    {
+      "pdf_id": 9,
+      "name": "Marcadora WE modelo Glock 17 Gen 5 Desert",
+      "price": 257400,
+      "promo": 244530,
+      "link": "https://weairsoft.com/we-g007rdb-tan.html",
+      "image": "https://weairsoft.com/media/catalog/product/cache/4170928a4fd46ec558d35cca3c571596/w/e/we-g007rdb-tan-1-4k.png"
+    },
+    {
+      "pdf_id": 10,
+      "name": "Marcadora WE modelo Glock 18 Gen 4 Negra",
+      "price": 268500,
+      "promo": 255075,
+      "link": "https://weairsoft.com/we-g003b-bk.html",
+      "image": "https://weairsoft.com/media/catalog/product/cache/4170928a4fd46ec558d35cca3c571596/w/e/we-g003b-bk-1-4k.png"
+    },
+    {
+      "pdf_id": 11,
+      "name": "Marcadora WE modelo Glock 18 Gen 4 Desert",
+      "price": 268500,
+      "promo": 255075,
+      "link": "https://weairsoft.com/we-g003rdb-tan.html",
+      "image": "https://weairsoft.com/media/catalog/product/cache/4170928a4fd46ec558d35cca3c571596/w/e/we-g003rdb-tan-1-4k.png"
+    }
+  ],
+  "MAGAZINE WE": [
+    {
+      "pdf_id": 12,
+      "name": "Cargador G19/G23",
+      "price": 52800,
+      "promo": 50160,
+      "link": "https://weairsoft.com/we-g019-magazine.html",
+      "image": "https://weairsoft.com/media/catalog/product/cache/4170928a4fd46ec558d35cca3c571596/w/e/we-g019-magazine-1-4k.png"
+    },
+    {
+      "pdf_id": 13,
+      "name": "Cargador G26-G27",
+      "price": 52800,
+      "promo": 50160,
+      "link": "https://weairsoft.com/we-g026-magazine.html",
+      "image": "https://weairsoft.com/media/catalog/product/cache/4170928a4fd46ec558d35cca3c571596/w/e/we-g026-magazine-1-4k.png"
+    },
+    {
+      "pdf_id": 14,
+      "name": "Cargador F226",
+      "price": 55800,
+      "promo": 53010,
+      "link": "https://weairsoft.com/we-f001-magazine.html",
+      "image": "https://weairsoft.com/media/catalog/product/cache/4170928a4fd46ec558d35cca3c571596/w/e/we-f001-magazine-1-4k.png"
+    },
+    {
+      "pdf_id": 15,
+      "name": "Cargador HI-POWER MK3",
+      "price": 55800,
+      "promo": 53010,
+      "link": "https://www.toysaurus.id/product/26587-30744/we-browning-hi-power-mk3-black-gbb",
+      "image": "https://toysaurus.id/image/cache/catalog/produk/airsoft-gbb/WE-GBB/WE_Browning_HP_MK3_Black_GBB-500x500.jpg"
+    },
+    {
+      "pdf_id": 16,
+      "name": "Cargador G17/18 50 Round",
+      "price": 97000,
+      "promo": 92150,
+      "link": "https://articulo.mercadolibre.com.ar/MLA-933334547-cargador-extendido-we-pistola-g17-g18-50-bbs-airsoft-6-mm-_JM",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_612261-MLA48439976356_122021-O.webp"
+    },
+    {
+      "pdf_id": 17,
+      "name": "Cargador Glock 17 Gen 5",
+      "price": 52800,
+      "promo": 50160,
+      "link": "https://weairsoft.com/we-g007-magazine.html",
+      "image": "https://weairsoft.com/media/catalog/product/cache/4170928a4fd46ec558d35cca3c571596/w/e/we-g007-magazine-1-4k.png"
+    }
+  ],
+  "VALKEN": [
+    {
+      "pdf_id": 18,
+      "name": "Bateria lipo Valken 7.4V 1000mah 30c STICK Mini Tamiya",
+      "price": 41000,
+      "promo": 38950.00,
+      "link": "https://valkenairsoft.com/product/valken-lipo-7-4v-1000mah-30c-stick-airsoft-battery-small-tamiya/",
+      "image": "https://valkenairsoft.com/wp-content/uploads/2021/05/Valken-LiPo-7.4v-1000mAh-30C-Stick-Airsoft-Battery-Small-Tamiya.jpg"
+    },
+    {
+      "pdf_id": 19,
+      "name": "Bateria lipo Valken 11V 1000mah 30c STICK Mini Tamiya",
+      "price": 59700,
+      "promo": 56715.00,
+      "link": "https://www.blackops-airsoft.com/shop/c/p/Valken-LiPo-111v-1000mAh-30C-Stick-Airsoft-Battery-Small-Tamiya-x60781465.htm",
+      "image": "https://cdn.shopify.com/s/files/1/1410/5838/products/844959062920_Valken_11.1v_1000mAh_30C_Stick_Battery.jpg?v=1602127271"
+    },
+    {
+      "pdf_id": 20,
+      "name": "Bateria lipo Valken 7.4V 1200mah 30c STICK Mini Tamiya",
+      "price": 41000,
+      "promo": 38950.00,
+      "link": "https://valkenairsoft.com/product/valken-lipo-7-4v-1200mah-30c-stick-airsoft-battery-small-tamiya/",
+      "image": "https://valkenairsoft.com/wp-content/uploads/2021/05/Valken-LiPo-7.4v-1200mAh-30C-Stick-Airsoft-Battery-Small-Tamiya.jpg"
+    },
+    {
+      "pdf_id": 21,
+      "name": "Mascara Valken Tango color Desert",
+      "price": 41200,
+      "promo": 39140.00,
+      "link": "https://www.valkendealer.com/product-images/P17930_media_Tan_3.jpg?resizeid=121&resizeh=600&resizew=600",
+      "image": "https://www.valkendealer.com/product-images/P17930_media_Tan_3.jpg?resizeid=121&resizeh=600&resizew=600"
+    },
+    {
+      "pdf_id": 22,
+      "name": "Mascara Valken Tango color Negro",
+      "price": 41200,
+      "promo": 39140.00,
+      "link": "https://valkenairsoft.com/product/valken-tango-full-face-mask-black/",
+      "image": "https://valkenairsoft.com/wp-content/uploads/2016/11/Valken-Tango-Black.jpg"
+    },
+    {
+      "pdf_id": 23,
+      "name": "Chaleco Valken Alpha Color Negro",
+      "price": 112700,
+      "promo": 107065.00,
+      "link": "https://valkenairsoft.com/product/valken-alpha-plate-carrier-black/",
+      "image": "https://valkenairsoft.com/wp-content/uploads/2021/05/Valken-Alpha-Plate-Carrier-Black.jpg"
+    },
+    {
+      "pdf_id": 24,
+      "name": "Chaleco Valken Alpha Color Desert",
+      "price": 112700,
+      "promo": 107065.00,
+      "link": "https://valkenairsoft.com/product/valken-alpha-plate-carrier-tan/",
+      "image": "https://valkenairsoft.com/wp-content/uploads/2021/05/Valken-Alpha-Plate-Carrier-Tan.jpg"
+    },
+    {
+      "pdf_id": 25,
+      "name": "Green Gas Valken 8 OZ",
+      "price": 24200,
+      "promo": 22990.00,
+      "link": "https://http2.mlstatic.com/D_NQ_NP_699219-MLA49433746395_032022-O.webp",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_699219-MLA49433746395_032022-O.webp"
+    }
+  ],
+  "CARGADORES IMAX": [
+    {
+      "pdf_id": 25,
+      "name": "Cargador usb Imax 7.4V 800 mah",
+      "price": 7300,
+      "promo": 6935.00,
+      "link": "https://articulo.mercadolibre.com.co/MCO-589574706-cargador-usb-lipo-2s-74v-800mah-con-balanceador-_JM",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_854966-MCO43981504996_102020-O.webp"
+    },
+    {
+      "pdf_id": 26,
+      "name": "Cargador usb Imax 7.4V 2000 mah",
+      "price": 8600,
+      "promo": 8170.00,
+      "link": "https://articulo.mercadolibre.com.co/MCO-2431605737-cargador-bateria-lipo-2s-74v-usb-para-bateria-drone-y-otros-_JM",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_688820-MCO70693574246_072023-O.webp"
+    },
+    {
+      "pdf_id": 27,
+      "name": "Cargador usb Imax 11.1V 2000 mah",
+      "price": 9300,
+      "promo": 8835.00,
+      "link": "https://articulo.mercadolibre.com.ar/MLA-1127027552-cargador-usb-smart-baterias-111v-3s-3-bahi-lipo-airsoft-_JM",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_608144-MLA49791191060_042022-O.webp"
+    },
+    {
+      "pdf_id": 28,
+      "name": "Cargador Lipo Imax B3 Pro 10W",
+      "price": 19900,
+      "promo": 18905.00,
+      "link": "https://avelectronics.cc/producto/cargador-balanceador-imax-b3-pro/",
+      "image": "https://avelectronics.cc/wp-content/uploads/2017/10/cargador-balanceador-b3-pro.jpg"
+    },
+    {
+      "pdf_id": 29,
+      "name": "Cargador Lipo Imax B3 20W",
+      "price": 30200,
+      "promo": 28690.00,
+      "link": "https://www.mercadolibre.com.ar/cargador-balanceador-imax-b3-de-20-w-para-bateria-lipo-2s-3s-voltaje-de-entrada-de/p/MLA35739324",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_832626-MLA48092284144_102021-O.webp"
+    },
+    {
+      "pdf_id": 30,
+      "name": "Cargador Lipo Imax B6 80W con fuente",
+      "price": 81100,
+      "promo": 77045.00,
+      "link": "https://articulo.mercadolibre.com.ar/MLA-915442971-cargador-lipo-imax-b6-80w-con-fuente-para-airsoft-drones-_JM",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_753896-MLA45939218844_052021-O.webp"
+    },
+    {
+      "pdf_id": 31,
+      "name": "Cargador usb Imax 7.4V 1300 mah",
+      "price": 7900,
+      "promo": 7505.00,
+      "link": "https://articulo.mercadolibre.com.ar/MLA-1133333333-cargador-usb-lipo-2s-74v-1300mah-airsoft-bateria-_JM",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_900350-MLA49791197479_042022-O.webp"
+    },
+    {
+      "pdf_id": 32,
+      "name": "Cargador usb Imax 3 slots",
+      "price": 22200,
+      "promo": 21090.00,
+      "link": "https://articulo.mercadolibre.com.ar/MLA-1127027552-cargador-usb-smart-baterias-111v-3s-3-bahi-lipo-airsoft-_JM",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_608144-MLA49791191060_042022-O.webp"
+    }
+  ],
+  "G&G": [
+    {
+      "pdf_id": 33,
+      "name": "Marcadora G&G modelo CM 16 Raider",
+      "price": 509200,
+      "promo": 483740.00,
+      "link": "https://www.guay2.com/es/shop/cm16-raider-440#attr=",
+      "image": "https://www.guay2.com/web/image/product.product/534/image_1024/CM16%20RAIDER?unique=f4e41c4"
+    },
+    {
+      "pdf_id": 34,
+      "name": "Marcadora G&G modelo CM 16 Carabine Black",
+      "price": 476100,
+      "promo": 452295.00,
+      "link": "https://www.guay2.com/es/shop/cm16-carbine-311#attr=",
+      "image": "https://www.guay2.com/web/image/product.template/532/image_1920?unique=f4e41c4"
+    },
+    {
+      "pdf_id": 35,
+      "name": "Marcadora G&G modelo CM 16 Raider Long Black",
+      "price": 509200,
+      "promo": 483740.00,
+      "link": "https://www.guay2.com/es/shop/cm16-raider-l-254#attr=",
+      "image": "https://www.guay2.com/web/image/product.template/535/image_1920?unique=f4e41c4"
+    },
+    {
+      "pdf_id": 36,
+      "name": "Marcadora G&G modelo CM 16 Raider Long Desert",
+      "price": 509200,
+      "promo": 483740.00,
+      "link": "https://www.guay2.com/es/shop/cm16-raider-l-tan-255#attr=",
+      "image": "https://www.guay2.com/web/image/product.template/536/image_1920?unique=f4e41c4"
+    },
+    {
+      "pdf_id": 37,
+      "name": "Marcadora G&G modelo CM 16 Carabine Desert",
+      "price": 476100,
+      "promo": 452295.00,
+      "link": "https://www.guay2.com/es/shop/cm16-carbine-tan-312#attr=",
+      "image": "https://www.guay2.com/web/image/product.template/533/image_1920?unique=f4e41c4"
+    },
+    {
+      "pdf_id": 38,
+      "name": "Marcadora G&G modelo CM16 Raider 2.0",
+      "price": 543900,
+      "promo": 516705.00,
+      "link": "https://www.guay2.com/es/shop/cm16-raider-2-0-508#attr=",
+      "image": "https://www.guay2.com/web/image/product.template/2443/image_1920?unique=f4e41c4"
+    },
+    {
+      "pdf_id": 39,
+      "name": "Marcadora G&G modelo ARP9 2.0",
+      "price": 765400,
+      "promo": 727130.00,
+      "link": "https://www.guay2.com/es/shop/arp-9-2-0-2815#attr=",
+      "image": "https://www.guay2.com/web/image/product.template/2815/image_1920?unique=f4e41c4"
+    },
+    {
+      "pdf_id": 40,
+      "name": "Marcadora G&G modelo CM18 Mod1",
+      "price": 619900,
+      "promo": 588905.00,
+      "link": "https://www.guay2.com/es/shop/cm18-mod1-1681#attr=",
+      "image": "https://www.guay2.com/web/image/product.template/1681/image_1920?unique=f4e41c4"
+    },
+    {
+      "pdf_id": 41,
+      "name": "Marcadora G&G modelo CM16 Predator",
+      "price": 813300,
+      "promo": 772635.00,
+      "link": "https://www.guay2.com/es/shop/cm16-predator-1077#attr=",
+      "image": "https://www.guay2.com/web/image/product.template/1077/image_1920?unique=f4e41c4"
+    },
+    {
+      "pdf_id": 42,
+      "name": "Marcadora G&G modelo TR16 MBR 556 WH",
+      "price": 1163800,
+      "promo": 1105610.00,
+      "link": "https://www.guay2.com/es/shop/tr16-mbr-556-wh-2849#attr=",
+      "image": "https://www.guay2.com/web/image/product.template/2849/image_1920?unique=f4e41c4"
+    },
+    {
+      "pdf_id": 43,
+      "name": "Marcadora G&G modelo SMC-9",
+      "price": 843100,
+      "promo": 800945.00,
+      "link": "https://www.guay2.com/es/shop/smc-9-3383#attr=",
+      "image": "https://www.guay2.com/web/image/product.template/3383/image_1920?unique=f4e41c4"
+    },
+    {
+      "pdf_id": 44,
+      "name": "Marcadora G&G modelo Fire Hawk",
+      "price": 576900,
+      "promo": 548055.00,
+      "link": "https://www.guay2.com/es/shop/fire-hawk-441#attr=",
+      "image": "https://www.guay2.com/web/image/product.template/560/image_1920?unique=f4e41c4"
+    },
+    {
+      "pdf_id": 45,
+      "name": "Marcadora G&G modelo FAR 9",
+      "price": 662900,
+      "promo": 629755.00,
+      "link": "https://www.guay2.com/es/shop/far-9-3375#attr=",
+      "image": "https://www.guay2.com/web/image/product.template/3375/image_1920?unique=f4e41c4"
+    },
+    {
+      "pdf_id": 46,
+      "name": "Marcadora G&G GPM92 color Desert CO2 6mm",
+      "price": 365300,
+      "promo": 347035.00,
+      "link": "https://www.guay2.com/es/shop/gpm92-gbb-tan-2015#attr=",
+      "image": "https://www.guay2.com/web/image/product.template/2015/image_1920?unique=f4e41c4"
+    }
+  ],
+  "BB'S G&G": [
+    {
+      "pdf_id": 47,
+      "name": "BB'S G&G psbp botella 0.20 grs x 5600",
+      "price": 25000,
+      "promo": 23750.00,
+      "link": "https://www.guay2.com/es/shop/0-20g-precision-bbs-bottle-5600-pellets-1870#attr=",
+      "image": "https://www.guay2.com/web/image/product.template/1870/image_1920?unique=f4e41c4"
+    },
+    {
+      "pdf_id": 48,
+      "name": "BB'S G&G psbp botella 0.25 grs x 5600",
+      "price": 29700,
+      "promo": 28215.00,
+      "link": "https://www.airsoftjerez.com/producto/0-25-bio/",
+      "image": "https://www.airsoftjerez.com/wp-content/uploads/2021/08/G-07-160-500x500.png"
+    },
+    {
+      "pdf_id": 49,
+      "name": "BB'S G&G psbp botella 0.28 grs x 5600",
+      "price": 36500,
+      "promo": 34675.00,
+      "link": "https://www.guay2.com/es/shop/0-28g-precision-bbs-bottle-5600-pellets-1873#attr=",
+      "image": "https://www.guay2.com/web/image/product.template/1873/image_1920?unique=f4e41c4"
+    },
+    {
+      "pdf_id": 50,
+      "name": "BB'S G&G psbp botella 0.30 grs x 5600",
+      "price": 44100,
+      "promo": 41895.00,
+      "link": "https://www.guay2.com/es/shop/0-30g-precision-bbs-bottle-5600-pellets-1874#attr=",
+      "image": "https://www.guay2.com/web/image/product.template/1874/image_1920?unique=f4e41c4"
+    },
+    {
+      "pdf_id": 51,
+      "name": "BB'S G&G psbp 0.20 grs x 2700 Green TRACER",
+      "price": 32000,
+      "promo": 30400.00,
+      "link": "https://www.guay2.com/es/shop/tracer-bb-0-2g-can-2700-pellets-green-1876",
+      "image": "https://www.guay2.com/web/image/product.template/1876/image_1920?unique=f4e41c4"
+    },
+    {
+      "pdf_id": 52,
+      "name": "BB'S G&G psbp 0.25 grs x 2700 Green TRACER",
+      "price": 36400,
+      "promo": 34580.00,
+      "link": "https://gunfire.com/en/products/bbs-tracer-0-25g-g-g-2700-pcs-green-1152224002.html",
+      "image": "https://cdn.gunfire.com/eng_pl_BBs-Tracer-0-25g-G-G-2700-pcs-Green-1152224002-1.jpg"
+    },
+    {
+      "pdf_id": 53,
+      "name": "BB'S G&G psbp 0.28 grs x 2700 Green TRACER",
+      "price": 41400,
+      "promo": 39330.00,
+      "link": "https://www.ilsemaforo-softair.com/en/tracer-bb-s/g-g-tracer-bb-0-28g-g-2700-bb-bottle-green-p364703",
+      "image": "https://www.ilsemaforo-softair.com/37190-large_default/g-g-tracer-bb-0-28g-g-2700-bb-bottle-green.jpg"
+    }
+  ],
+  "MAGAZINE G&G": [
+    {
+      "pdf_id": 54,
+      "name": "Cargador G&G modelo EGM G-08-030 200 Round",
+      "price": 72700,
+      "promo": 69065.00,
+      "link": "https://www.guay2.com/es/shop/g-08-030-egm-magazine-200r-486#attr=",
+      "image": "https://www.guay2.com/web/image/product.template/544/image_1920?unique=f4e41c4"
+    },
+    {
+      "pdf_id": 55,
+      "name": "Cargador G&G modelo GPM92 27 Round",
+      "price": 74400,
+      "promo": 70680.00,
+      "link": "https://www.tacticalcenter.es/gg-g-08-191-gpm92-co2-27r-magazine",
+      "image": "https://www.tacticalcenter.es/image/cache/catalog/articulos/GG-G-08-191-GPM92-CO2-27R-MAGAZINE-500x500.png"
+    },
+    {
+      "pdf_id": 56,
+      "name": "Cargador G&G modelo GPM1911 26 Round",
+      "price": 74400,
+      "promo": 70680.00,
+      "link": "https://www.guay2.com/es/shop/g-08-192-gpm1911-gas-magazine-26r-3079#attr=",
+      "image": "https://www.guay2.com/web/image/product.template/3079/image_1920?unique=f4e41c4"
+    },
+    {
+      "pdf_id": 57,
+      "name": "Cargador G&G modelo ARP9 300Round",
+      "price": 74400,
+      "promo": 70680.00,
+      "link": "https://www.guay2.com/es/shop/g-08-159-arp9-300r-magazine-2771#attr=",
+      "image": "https://www.guay2.com/web/image/product.template/2771/image_1920?unique=f4e41c4"
+    },
+    {
+      "pdf_id": 58,
+      "name": "Cargador G&G modelo GR16 Midcap 120R",
+      "price": 31400,
+      "promo": 29830.00,
+      "link": "https://www.cqbplus.com/gg-120r-mid-cap-magazine-for-gr16-tanblack--g-08-101-3",
+      "image": "https://www.cqbplus.com/image/cache/catalog/articulos/GG-G-08-101-3-GR16-MIDCAP-120R-500x500.png"
+    },
+    {
+      "pdf_id": 59,
+      "name": "Cargador G&G modelo GTP9 HiCap 50R",
+      "price": 122300,
+      "promo": 116185.00,
+      "link": "https://www.guay2.com/es/shop/g-08-198-gtp9-50r-extended-magazine-3129#attr=",
+      "image": "https://www.guay2.com/web/image/product.template/3129/image_1920?unique=f4e41c4"
+    },
+    {
+      "pdf_id": 60,
+      "name": "Cargador G&G modelo ARP9 Drum 1500 R",
+      "price": 152100,
+      "promo": 144495.00,
+      "link": "https://www.guay2.com/es/shop/g-08-175-arp9-drum-magazine-1500r-2748#attr=",
+      "image": "https://www.guay2.com/web/image/product.template/2748/image_1920?unique=f4e41c4"
+    },
+    {
+      "pdf_id": 61,
+      "name": "Cargador G&G modelo ARP9 170 R",
+      "price": 84300,
+      "promo": 80085.00,
+      "link": "https://www.guay2.com/es/shop/g-08-177-arp9-170r-magazine-2751#attr=",
+      "image": "https://www.guay2.com/web/image/product.template/2751/image_1920?unique=f4e41c4"
+    },
+    {
+      "pdf_id": 62,
+      "name": "Cargador G&G bb speed loader",
+      "price": 16500,
+      "promo": 15675.00,
+      "link": "https://www.guay2.com/es/shop/g-08-011-bb-speed-loader-472#attr=",
+      "image": "https://www.guay2.com/web/image/product.template/520/image_1920?unique=f4e41c4"
+    },
+    {
+      "pdf_id": 63,
+      "name": "Cargador G&G bb speed loader transparente 420 Round",
+      "price": 38000,
+      "promo": 36100.00,
+      "link": "https://www.guay2.com/es/shop/g-08-107-bb-speed-loader-420r-1678#attr=",
+      "image": "https://www.guay2.com/web/image/product.template/1678/image_1920?unique=f4e41c4"
+    },
+    {
+      "pdf_id": 64,
+      "name": "Grip G&G Negro ABS Injection",
+      "price": 33100,
+      "promo": 31445.00,
+      "link": "https://www.guay2.com/es/shop/g-03-017-grip-for-m4-200#attr=",
+      "image": "https://www.guay2.com/web/image/product.template/492/image_1920?unique=f4e41c4"
+    },
+    {
+      "pdf_id": 65,
+      "name": "Grip G&G Negro ABS Injection c/picatiny",
+      "price": 43800,
+      "promo": 41610.00,
+      "link": "https://www.guay2.com/es/shop/g-03-125-vertical-grip-for-picatinny-rail-black-2877#attr=",
+      "image": "https://www.guay2.com/web/image/product.template/2877/image_1920?unique=f4e41c4"
+    },
+    {
+      "pdf_id": 66,
+      "name": "Grip G&G Arena ABS Injection c/picatiny",
+      "price": 43800,
+      "promo": 41610.00,
+      "link": "https://www.guay2.com/es/shop/g-03-126-vertical-grip-for-picatinny-rail-tan-2878#attr=",
+      "image": "https://www.guay2.com/web/image/product.template/2878/image_1920?unique=f4e41c4"
+    },
+    {
+      "pdf_id": 67,
+      "name": "Adaptador para pistola trazador G&g 14MM",
+      "price": 33100,
+      "promo": 31445.00,
+      "link": "https://cults3d.com/es/modelo-3d/juegos/g-g-ssg-1-tracer-adapter",
+      "image": "https://images.cults3d.com/Hl5xYm-8Q_79vP8x8eL3j9oI6rQ=/516x516/filters:format(webp)/https://files.cults3d.com/uploaders/20653697/illustration-file/b77f9899-72c1-4c12-9c3a-964205f42c4b/SSG1_Tracer_Adapter_14mm_CCW_2.png"
+    }
+  ],
+  "LENTES Y ANTIPARRAS PYRAMEX": [
+    {
+      "pdf_id": 68,
+      "name": "Pyramex PMX-Treme Lente naranja espejado",
+      "price": 18100,
+      "promo": 17195.00,
+      "link": "https://www.pyramexsafety.com/products/safety-glasses/pmx-treme-slim",
+      "image": "https://cdn.pyramexsafety.com/product_images/PMXTREME/PMXTREME_IndoorOutdoor_Mirror.png"
+    },
+    {
+      "pdf_id": 69,
+      "name": "Pyramex PMX-Treme Lente gris / marco gris",
+      "price": 18100,
+      "promo": 17195.00,
+      "link": "https://www.pyramexsafety.com/products/safety-glasses/pmx-treme-slim",
+      "image": "https://cdn.pyramexsafety.com/product_images/PMXTREME/PMXTREME_Smoke.png"
+    },
+    {
+      "pdf_id": 70,
+      "name": "Pyramex PMX-Treme Lente transparente / marco gris",
+      "price": 18100,
+      "promo": 17195.00,
+      "link": "https://www.pyramexsafety.com/products/safety-glasses/pmx-treme-slim",
+      "image": "https://cdn.pyramexsafety.com/product_images/PMXTREME/PMXTREME_Clear.png"
+    },
+    {
+      "pdf_id": 71,
+      "name": "Pyramex PMX-Treme Lente ambar / marco gris",
+      "price": 18100,
+      "promo": 17195.00,
+      "link": "https://www.pyramexsafety.com/products/safety-glasses/pmx-treme-slim",
+      "image": "https://cdn.pyramexsafety.com/product_images/PMXTREME/PMXTREME_Amber.png"
+    },
+    {
+      "pdf_id": 72,
+      "name": "Pyramex PMX-Treme Lente azul espejado / marco gris",
+      "price": 18100,
+      "promo": 17195.00,
+      "link": "https://www.pyramexsafety.com/products/safety-glasses/pmx-treme-slim",
+      "image": "https://cdn.pyramexsafety.com/product_images/PMXTREME/PMXTREME_BlueMirror.png"
+    },
+    {
+      "pdf_id": 73,
+      "name": "Pyramex PMX-Treme Lente gris / marco camo",
+      "price": 20600,
+      "promo": 19570.00,
+      "link": "https://www.pyramexsafety.com/products/safety-glasses/pmx-treme-slim",
+      "image": "https://cdn.pyramexsafety.com/product_images/PMXTREME/PMXTREME_Smoke_Camo.png"
+    },
+    {
+      "pdf_id": 74,
+      "name": "Pyramex PMX-Treme Lente transparente espejado",
+      "price": 20600,
+      "promo": 19570.00,
+      "link": "https://www.pyramexsafety.com/products/safety-glasses/pmx-treme-slim",
+      "image": "https://cdn.pyramexsafety.com/product_images/PMXTREME/PMXTREME_IndoorOutdoor_Mirror.png"
+    },
+    {
+      "pdf_id": 75,
+      "name": "Pyramex Venture 2 Lente gris espejado",
+      "price": 12600,
+      "promo": 11970.00,
+      "link": "https://www.pyramexsafety.com/products/safety-glasses/venture-2",
+      "image": "https://cdn.pyramexsafety.com/product_images/VENTUREII/VENTURE_II_Smoke_Mirror.png"
+    },
+    {
+      "pdf_id": 76,
+      "name": "Pyramex Highlander XP Lente gris Anti empaño",
+      "price": 23700,
+      "promo": 22515.00,
+      "link": "https://www.pyramexsafety.com/products/safety-glasses/highlander-xp",
+      "image": "https://cdn.pyramexsafety.com/product_images/HIGHLANDERXP/HIGHLANDER_XP_Smoke_AntiFog.png"
+    },
+    {
+      "pdf_id": 77,
+      "name": "Pyramex Highlander XP Lente transparente Anti empaño",
+      "price": 22400,
+      "promo": 21280.00,
+      "link": "https://www.pyramexsafety.com/products/safety-glasses/highlander-xp",
+      "image": "https://cdn.pyramexsafety.com/product_images/HIGHLANDERXP/HIGHLANDER_XP_Clear_AntiFog.png"
+    },
+    {
+      "pdf_id": 78,
+      "name": "Pyramex Highlander XP Lente espejado rojo Anti empaño",
+      "price": 22700,
+      "promo": 21565.00,
+      "link": "https://www.pyramexsafety.com/products/safety-glasses/highlander-xp",
+      "image": "https://cdn.pyramexsafety.com/product_images/HIGHLANDERXP/HIGHLANDER_XP_RedMirror_AntiFog.png"
+    },
+    {
+      "pdf_id": 79,
+      "name": "Pyramex XS3 Plus Lente gris Anti empaño",
+      "price": 19400,
+      "promo": 18430.00,
+      "link": "https://www.pyramexsafety.com/products/safety-glasses/xs3-plus",
+      "image": "https://cdn.pyramexsafety.com/product_images/XS3Plus/XS3Plus_Smoke_AntiFog.png"
+    },
+    {
+      "pdf_id": 80,
+      "name": "Pyramex XS3 Plus Lente transparente Anti empaño",
+      "price": 17900,
+      "promo": 17005.00,
+      "link": "https://www.pyramexsafety.com/products/safety-glasses/xs3-plus",
+      "image": "https://cdn.pyramexsafety.com/product_images/XS3Plus/XS3Plus_Clear_AntiFog.png"
+    },
+    {
+      "pdf_id": 81,
+      "name": "Pyramex XSG Kit Ballistic Lente intercambiables transparente / ambar / gris",
+      "price": 83300,
+      "promo": 79135.00,
+      "link": "https://www.pyramexsafety.com/products/goggles/xsg",
+      "image": "https://cdn.pyramexsafety.com/product_images/XSG/XSG_Kit_Ballistic_Smoke_Amber_Clear.png"
+    },
+    {
+      "pdf_id": 82,
+      "name": "Pyramex Intruder Lente ambar / Marco ambar",
+      "price": 6300,
+      "promo": 5985.00,
+      "link": "https://www.pyramexsafety.com/products/safety-glasses/intruder",
+      "image": "https://cdn.pyramexsafety.com/product_images/Intruder/Intruder_Amber.png"
+    },
+    {
+      "pdf_id": 83,
+      "name": "Pyramex Intruder Lente transparente / Marco transparente",
+      "price": 5600,
+      "promo": 5320.00,
+      "link": "https://www.pyramexsafety.com/products/safety-glasses/intruder",
+      "image": "https://cdn.pyramexsafety.com/product_images/Intruder/Intruder_Clear.png"
+    },
+    {
+      "pdf_id": 84,
+      "name": "Pyramex Intruder Lente gris / Marco gris",
+      "price": 6300,
+      "promo": 5985.00,
+      "link": "https://www.pyramexsafety.com/products/safety-glasses/intruder",
+      "image": "https://cdn.pyramexsafety.com/product_images/Intruder/Intruder_Smoke.png"
+    },
+    {
+      "pdf_id": 85,
+      "name": "Pyramex Intruder Lente espejado / Marco negro",
+      "price": 9500,
+      "promo": 9025.00,
+      "link": "https://www.pyramexsafety.com/products/safety-glasses/intruder",
+      "image": "https://cdn.pyramexsafety.com/product_images/Intruder/Intruder_IndoorOutdoorMirror.png"
+    },
+    {
+      "pdf_id": 86,
+      "name": "Antiparra Pyramex V2G Lente transparente Anti empaño",
+      "price": 25200,
+      "promo": 23940.00,
+      "link": "https://www.pyramexsafety.com/products/goggles/v2g",
+      "image": "https://cdn.pyramexsafety.com/product_images/V2G/V2G_Clear_H2X.png"
+    },
+    {
+      "pdf_id": 87,
+      "name": "Antiparra Pyramex V2G Lente humo Anti empaño",
+      "price": 26600,
+      "promo": 25270.00,
+      "link": "https://www.pyramexsafety.com/products/goggles/v2g",
+      "image": "https://cdn.pyramexsafety.com/product_images/V2G/V2G_Smoke_H2X.png"
+    },
+    {
+      "pdf_id": 88,
+      "name": "Lente Venture Gear Tactical Semtex 2.0",
+      "price": 62600,
+      "promo": 59470.00,
+      "link": "https://www.pyramexsafety.com/products/venture-gear/semtex-20",
+      "image": "https://cdn.pyramexsafety.com/product_images/VGTSEM2/VGTSEM2_Smoke.png"
+    },
+    {
+      "pdf_id": 89,
+      "name": "Lente Venture Gear Tactical Howitzer",
+      "price": 62600,
+      "promo": 59470.00,
+      "link": "https://www.pyramexsafety.com/products/venture-gear/howitzer",
+      "image": "https://cdn.pyramexsafety.com/product_images/VGTHOW/VGTHOW_Smoke.png"
+    },
+    {
+      "pdf_id": 90,
+      "name": "Lente Venture Gear Tactical Overwatch",
+      "price": 62600,
+      "promo": 59470.00,
+      "link": "https://www.pyramexsafety.com/products/venture-gear/overwatch",
+      "image": "https://cdn.pyramexsafety.com/product_images/VGTOW/VGTOW_Smoke.png"
+    },
+    {
+      "pdf_id": 91,
+      "name": "Lente Pyramex Modelo Dropzone. Kit con lentes intercambiables.",
+      "price": 69400,
+      "promo": 65930.00,
+      "link": "https://www.pyramexsafety.com/products/safety-glasses/dropzone",
+      "image": "https://cdn.pyramexsafety.com/product_images/DropZone/DropZone_Kit.png"
+    },
+    {
+      "pdf_id": 92,
+      "name": "Lente Pyramex Modelo I-Force color ambar",
+      "price": 53600,
+      "promo": 50920.00,
+      "link": "https://www.pyramexsafety.com/products/goggles/iforce",
+      "image": "https://cdn.pyramexsafety.com/product_images/IFORCE/IFORCE_Amber_H2X.png"
+    },
+    {
+      "pdf_id": 93,
+      "name": "Lente Pyramex Modelo Loadout",
+      "price": 83500,
+      "promo": 79325.00,
+      "link": "https://www.pyramexsafety.com/products/goggles/loadout",
+      "image": "https://cdn.pyramexsafety.com/product_images/Loadout/Loadout_Black.png"
+    }
+  ],
+  "WALKERS PROTECTORES AUDITIVOS": [
+    {
+      "pdf_id": 94,
+      "name": "Walkers Protector Auditivo 31 decibeles. Modelo Slim Color Negro ultra liviano.",
+      "price": 50400,
+      "promo": 47880.00,
+      "link": "https://www.walkersgameear.com/shooting-ear-protection/passive/passive-earmuffs/passive-folding-earmuff/",
+      "image": "https://www.walkersgameear.com/images/product/default/GEL-M03-BK.png"
+    },
+    {
+      "pdf_id": 95,
+      "name": "Walkers Protector Auditivo 31 decibeles. Modelo Slim, color CAM",
+      "price": 64600,
+      "promo": 61370.00,
+      "link": "https://www.walkersgameear.com/shooting-ear-protection/passive/passive-earmuffs/passive-folding-earmuff/",
+      "image": "https://www.walkersgameear.com/images/product/default/GEL-M03-CAMO.png"
+    },
+    {
+      "pdf_id": 96,
+      "name": "Walkers Razor Protector Auditivo Electrónico. 2 microfono.",
+      "price": 185100,
+      "promo": 175845.00,
+      "link": "https://www.walkersgameear.com/shooting-ear-protection/electronic/razor/razor-slim-electronic-muff-black/",
+      "image": "https://www.walkersgameear.com/images/product/default/GWP-RSEM-FDE.png"
+    },
+    {
+      "pdf_id": 97,
+      "name": "Walkers Razor Protector Auditivo Low Profile 27 dc. Negro",
+      "price": 76800,
+      "promo": 72960.00,
+      "link": "https://www.walkersgameear.com/shooting-ear-protection/passive/razor-passive/razor-low-profile-passive-muff-black/",
+      "image": "https://www.walkersgameear.com/images/product/default/GWP-RSPM-FDE.png"
+    },
+    {
+      "pdf_id": 98,
+      "name": "Walkers Razor Protector Auditivo Electrónico. 2 microfono. Colo",
+      "price": 185100,
+      "promo": 175845.00,
+      "link": "https://www.walkersgameear.com/shooting-ear-protection/electronic/razor/razor-slim-electronic-muff-black/",
+      "image": "https://www.walkersgameear.com/images/product/default/GWP-RSEM-FDE.png"
+    },
+    {
+      "pdf_id": 99,
+      "name": "Walkers Razor Protector Auditivo Bluetooth",
+      "price": 143900,
+      "promo": 136705.00,
+      "link": "https://www.walkersgameear.com/shooting-ear-protection/electronic/razor/razor-xv-bluetooth-earmuff/",
+      "image": "https://www.walkersgameear.com/images/product/default/GWP-XVBL.png"
+    }
+  ]
+}
