@@ -73,7 +73,10 @@ const [wishlist, setWishlist] = useState(() => {
       {/* Header */}
      <header className="fixed top-0 left-0 w-full z-50 bg-black/80 backdrop-blur-md border-b border-lime-400 shadow-md">
   <div className="max-w-8xl mx-auto flex flex-wrap items-center justify-between gap-4 p-6">
-    <h1 className="text-3xl font-bold text-lime-400">Zack Airsoft Store</h1>
+    <div className="flex align-center"> 
+      <img src="/logo.png" alt="Logo" className="w-10" />
+    <h1 className="text-3xl text-lime-400 px-3">Zack Airsoft Store</h1>
+    </div>
     <div className="flex items-center gap-4 flex-wrap">
       <input
         value={query}
@@ -82,17 +85,18 @@ const [wishlist, setWishlist] = useState(() => {
         className="p-2 text-black rounded outline-none border border-lime-400"
       />
       <button
-        onClick={() => setShowCart(true)}
-        className="text-lime-400 text-sm hover:text-white"
-      >
-        🛒 Carrito ({cart.length})
-      </button>
-      <button
         onClick={() => setShowWishlist(true)}
         className="text-lime-400 text-sm hover:text-white"
       >
         ❤️ Wishlist ({wishlist.length})
       </button>
+      <button
+        onClick={() => setShowCart(true)}
+        className="text-lime-400 text-sm hover:text-white"
+      >
+        🛒 Carrito ({cart.length})
+      </button>
+      
     </div>
   </div>
 </header>

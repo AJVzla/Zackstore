@@ -2,6 +2,7 @@
   "WE": [
     {
       "pdf_id": 1,
+      "category": "Pistolas/Marcadoras",
       "name": "Marcadora WE modelo GLOCK 17 Gen 4 Negra",
       "price": 244600,
       "promo": 232370,
@@ -10,6 +11,7 @@
     },
     {
       "pdf_id": 2,
+      "category": "Pistolas/Marcadoras",
       "name": "Marcadora WE modelo GLOCK 17 Gen 4 Desert",
       "price": 244600,
       "promo": 232370,
@@ -18,6 +20,7 @@
     },
     {
       "pdf_id": 3,
+      "category": "Pistolas/Marcadoras",
       "name": "Marcadora WE modelo GLOCK 26 Gen 4 Negra",
       "price": 253100,
       "promo": 240445,
@@ -26,22 +29,25 @@
     },
     {
       "pdf_id": 4,
+      "category": "Pistolas/Marcadoras",
       "name": "Marcadora WE modelo GLOCK 26 Gen 4 Desert",
       "price": 253100,
       "promo": 240445,
-      "link": "https://weairsoft.com/we-g005rdb-tan.html",
+      "link": "https://weairsoft.com/we-g005b-tan.html",
       "image": "https://weairsoft.com/media/catalog/product/cache/4170928a4fd46ec558d35cca3c571596/w/e/we-g005b-tan-1-4k.png"
     },
     {
       "pdf_id": 5,
+      "category": "Pistolas/Marcadoras",
       "name": "Marcadora WE modelo Sig Sauer F226 Negra",
       "price": 268200,
       "promo": 254790,
-      "link": "https://weairsoft.com/we-f001-bk.html",
+      "link": "https://weairsoft.com/we-f001b.html",
       "image": "https://weairsoft.com/media/catalog/product/cache/4170928a4fd46ec558d35cca3c571596/w/e/we-f001b-1-4k.png"
     },
     {
       "pdf_id": 6,
+      "category": "Pistolas/Marcadoras",
       "name": "Marcadora WE modelo Glock 19 Gen 4 Negra",
       "price": 244600,
       "promo": 232370,
@@ -50,30 +56,34 @@
     },
     {
       "pdf_id": 7,
+      "category": "Pistolas/Marcadoras",
       "name": "Marcadora WE modelo Glock 19 Gen 4 Desert",
       "price": 244600,
       "promo": 232370,
       "link": "https://weairsoft.com/we-g002rdb-tan.html",
-      "image": "https://weairsoft.com/media/catalog/product/cache/4170928a4fd46ec558d35cca3c571596/w/e/we-g002rdb-tan-1-4k.png"
+      "image": "https://weairsoft.com/media/catalog/product/cache/4170928a4fd46ec558d35cca3c571596/w/e/we-g001rdb-tan-1-4k.png"
     },
     {
       "pdf_id": 8,
+      "category": "Pistolas/Marcadoras",
       "name": "Marcadora WE modelo Glock 17 Gen 5 Negra",
       "price": 257400,
       "promo": 244530,
-      "link": "https://weairsoft.com/we-g007b-bk.html",
-      "image": "https://weairsoft.com/media/catalog/product/cache/4170928a4fd46ec558d35cca3c571596/w/e/we-g007b-bk-1-4k.png"
+      "link": "https://weairsoft.com/we-g001vb-bk.html",
+      "image": "https://weairsoft.com/media/catalog/product/cache/4170928a4fd46ec558d35cca3c571596/w/e/we-g001vb-bk-1-4k.png"
     },
     {
       "pdf_id": 9,
+      "category": "Pistolas/Marcadoras",
       "name": "Marcadora WE modelo Glock 17 Gen 5 Desert",
       "price": 257400,
       "promo": 244530,
-      "link": "https://weairsoft.com/we-g007rdb-tan.html",
-      "image": "https://weairsoft.com/media/catalog/product/cache/4170928a4fd46ec558d35cca3c571596/w/e/we-g007rdb-tan-1-4k.png"
+      "link": "https://weairsoft.com/we-g001vb-tan.html",
+      "image": "https://weairsoft.com/media/catalog/product/cache/4170928a4fd46ec558d35cca3c571596/w/e/we-g001vb-tan-1-4k.png"
     },
     {
       "pdf_id": 10,
+      "category": "Pistolas/Marcadoras",
       "name": "Marcadora WE modelo Glock 18 Gen 4 Negra",
       "price": 268500,
       "promo": 255075,
@@ -82,16 +92,18 @@
     },
     {
       "pdf_id": 11,
+      "category": "Pistolas/Marcadoras",
       "name": "Marcadora WE modelo Glock 18 Gen 4 Desert",
       "price": 268500,
       "promo": 255075,
-      "link": "https://weairsoft.com/we-g003rdb-tan.html",
-      "image": "https://weairsoft.com/media/catalog/product/cache/4170928a4fd46ec558d35cca3c571596/w/e/we-g003rdb-tan-1-4k.png"
+      "link": "https://weairsoft.com/we-g002b-tan.html",
+      "image": "https://weairsoft.com/media/catalog/product/cache/4170928a4fd46ec558d35cca3c571596/w/e/we-g002b-tan-1-4k.png"
     }
   ],
   "MAGAZINE WE": [
     {
       "pdf_id": 12,
+      "category": "Cargadores y Accesorios de Réplicas",
       "name": "Cargador G19/G23",
       "price": 52800,
       "promo": 50160,
@@ -100,6 +112,7 @@
     },
     {
       "pdf_id": 13,
+      "category": "Cargadores y Accesorios de Réplicas",
       "name": "Cargador G26-G27",
       "price": 52800,
       "promo": 50160,
@@ -108,6 +121,7 @@
     },
     {
       "pdf_id": 14,
+      "category": "Cargadores y Accesorios de Réplicas",
       "name": "Cargador F226",
       "price": 55800,
       "promo": 53010,
@@ -116,6 +130,7 @@
     },
     {
       "pdf_id": 15,
+      "category": "Cargadores y Accesorios de Réplicas",
       "name": "Cargador HI-POWER MK3",
       "price": 55800,
       "promo": 53010,
@@ -124,6 +139,7 @@
     },
     {
       "pdf_id": 16,
+      "category": "Cargadores y Accesorios de Réplicas",
       "name": "Cargador G17/18 50 Round",
       "price": 97000,
       "promo": 92150,
@@ -132,6 +148,7 @@
     },
     {
       "pdf_id": 17,
+      "category": "Cargadores y Accesorios de Réplicas",
       "name": "Cargador Glock 17 Gen 5",
       "price": 52800,
       "promo": 50160,
@@ -142,6 +159,7 @@
   "VALKEN": [
     {
       "pdf_id": 18,
+      "category": "Baterías y Cargadores de Baterías",
       "name": "Bateria lipo Valken 7.4V 1000mah 30c STICK Mini Tamiya",
       "price": 41000,
       "promo": 38950.00,
@@ -150,6 +168,7 @@
     },
     {
       "pdf_id": 19,
+      "category": "Baterías y Cargadores de Baterías",
       "name": "Bateria lipo Valken 11V 1000mah 30c STICK Mini Tamiya",
       "price": 59700,
       "promo": 56715.00,
@@ -158,6 +177,7 @@
     },
     {
       "pdf_id": 20,
+      "category": "Baterías y Cargadores de Baterías",
       "name": "Bateria lipo Valken 7.4V 1200mah 30c STICK Mini Tamiya",
       "price": 41000,
       "promo": 38950.00,
@@ -166,6 +186,7 @@
     },
     {
       "pdf_id": 21,
+      "category": "Equipamiento de Protección",
       "name": "Mascara Valken Tango color Desert",
       "price": 41200,
       "promo": 39140.00,
@@ -174,6 +195,7 @@
     },
     {
       "pdf_id": 22,
+      "category": "Equipamiento de Protección",
       "name": "Mascara Valken Tango color Negro",
       "price": 41200,
       "promo": 39140.00,
@@ -182,6 +204,7 @@
     },
     {
       "pdf_id": 23,
+      "category": "Equipamiento de Protección",
       "name": "Chaleco Valken Alpha Color Negro",
       "price": 112700,
       "promo": 107065.00,
@@ -190,6 +213,7 @@
     },
     {
       "pdf_id": 24,
+      "category": "Equipamiento de Protección",
       "name": "Chaleco Valken Alpha Color Desert",
       "price": 112700,
       "promo": 107065.00,
@@ -198,6 +222,7 @@
     },
     {
       "pdf_id": 25,
+      "category": "Consumibles",
       "name": "Green Gas Valken 8 OZ",
       "price": 24200,
       "promo": 22990.00,
@@ -208,6 +233,7 @@
   "CARGADORES IMAX": [
     {
       "pdf_id": 25,
+      "category": "Baterías y Cargadores de Baterías",
       "name": "Cargador usb Imax 7.4V 800 mah",
       "price": 7300,
       "promo": 6935.00,
@@ -216,6 +242,7 @@
     },
     {
       "pdf_id": 26,
+      "category": "Baterías y Cargadores de Baterías",
       "name": "Cargador usb Imax 7.4V 2000 mah",
       "price": 8600,
       "promo": 8170.00,
@@ -224,6 +251,7 @@
     },
     {
       "pdf_id": 27,
+      "category": "Baterías y Cargadores de Baterías",
       "name": "Cargador usb Imax 11.1V 2000 mah",
       "price": 9300,
       "promo": 8835.00,
@@ -232,6 +260,7 @@
     },
     {
       "pdf_id": 28,
+      "category": "Baterías y Cargadores de Baterías",
       "name": "Cargador Lipo Imax B3 Pro 10W",
       "price": 19900,
       "promo": 18905.00,
@@ -240,6 +269,7 @@
     },
     {
       "pdf_id": 29,
+      "category": "Baterías y Cargadores de Baterías",
       "name": "Cargador Lipo Imax B3 20W",
       "price": 30200,
       "promo": 28690.00,
@@ -248,6 +278,7 @@
     },
     {
       "pdf_id": 30,
+      "category": "Baterías y Cargadores de Baterías",
       "name": "Cargador Lipo Imax B6 80W con fuente",
       "price": 81100,
       "promo": 77045.00,
@@ -256,6 +287,7 @@
     },
     {
       "pdf_id": 31,
+      "category": "Baterías y Cargadores de Baterías",
       "name": "Cargador usb Imax 7.4V 1300 mah",
       "price": 7900,
       "promo": 7505.00,
@@ -264,6 +296,7 @@
     },
     {
       "pdf_id": 32,
+      "category": "Baterías y Cargadores de Baterías",
       "name": "Cargador usb Imax 3 slots",
       "price": 22200,
       "promo": 21090.00,
@@ -274,6 +307,7 @@
   "G&G": [
     {
       "pdf_id": 33,
+      "category": "Pistolas/Marcadoras",
       "name": "Marcadora G&G modelo CM 16 Raider",
       "price": 509200,
       "promo": 483740.00,
@@ -282,6 +316,7 @@
     },
     {
       "pdf_id": 34,
+      "category": "Pistolas/Marcadoras",
       "name": "Marcadora G&G modelo CM 16 Carabine Black",
       "price": 476100,
       "promo": 452295.00,
@@ -290,6 +325,7 @@
     },
     {
       "pdf_id": 35,
+      "category": "Pistolas/Marcadoras",
       "name": "Marcadora G&G modelo CM 16 Raider Long Black",
       "price": 509200,
       "promo": 483740.00,
@@ -298,6 +334,7 @@
     },
     {
       "pdf_id": 36,
+      "category": "Pistolas/Marcadoras",
       "name": "Marcadora G&G modelo CM 16 Raider Long Desert",
       "price": 509200,
       "promo": 483740.00,
@@ -306,6 +343,7 @@
     },
     {
       "pdf_id": 37,
+      "category": "Pistolas/Marcadoras",
       "name": "Marcadora G&G modelo CM 16 Carabine Desert",
       "price": 476100,
       "promo": 452295.00,
@@ -314,6 +352,7 @@
     },
     {
       "pdf_id": 38,
+      "category": "Pistolas/Marcadoras",
       "name": "Marcadora G&G modelo CM16 Raider 2.0",
       "price": 543900,
       "promo": 516705.00,
@@ -322,6 +361,7 @@
     },
     {
       "pdf_id": 39,
+      "category": "Pistolas/Marcadoras",
       "name": "Marcadora G&G modelo ARP9 2.0",
       "price": 765400,
       "promo": 727130.00,
@@ -330,6 +370,7 @@
     },
     {
       "pdf_id": 40,
+      "category": "Pistolas/Marcadoras",
       "name": "Marcadora G&G modelo CM18 Mod1",
       "price": 619900,
       "promo": 588905.00,
@@ -338,6 +379,7 @@
     },
     {
       "pdf_id": 41,
+      "category": "Pistolas/Marcadoras",
       "name": "Marcadora G&G modelo CM16 Predator",
       "price": 813300,
       "promo": 772635.00,
@@ -346,6 +388,7 @@
     },
     {
       "pdf_id": 42,
+      "category": "Pistolas/Marcadoras",
       "name": "Marcadora G&G modelo TR16 MBR 556 WH",
       "price": 1163800,
       "promo": 1105610.00,
@@ -354,6 +397,7 @@
     },
     {
       "pdf_id": 43,
+      "category": "Pistolas/Marcadoras",
       "name": "Marcadora G&G modelo SMC-9",
       "price": 843100,
       "promo": 800945.00,
@@ -362,6 +406,7 @@
     },
     {
       "pdf_id": 44,
+      "category": "Pistolas/Marcadoras",
       "name": "Marcadora G&G modelo Fire Hawk",
       "price": 576900,
       "promo": 548055.00,
@@ -370,6 +415,7 @@
     },
     {
       "pdf_id": 45,
+      "category": "Pistolas/Marcadoras",
       "name": "Marcadora G&G modelo FAR 9",
       "price": 662900,
       "promo": 629755.00,
@@ -378,6 +424,7 @@
     },
     {
       "pdf_id": 46,
+      "category": "Pistolas/Marcadoras",
       "name": "Marcadora G&G GPM92 color Desert CO2 6mm",
       "price": 365300,
       "promo": 347035.00,
@@ -388,6 +435,7 @@
   "BB'S G&G": [
     {
       "pdf_id": 47,
+      "category": "Consumibles",
       "name": "BB'S G&G psbp botella 0.20 grs x 5600",
       "price": 25000,
       "promo": 23750.00,
@@ -396,6 +444,7 @@
     },
     {
       "pdf_id": 48,
+      "category": "Consumibles",
       "name": "BB'S G&G psbp botella 0.25 grs x 5600",
       "price": 29700,
       "promo": 28215.00,
@@ -404,6 +453,7 @@
     },
     {
       "pdf_id": 49,
+      "category": "Consumibles",
       "name": "BB'S G&G psbp botella 0.28 grs x 5600",
       "price": 36500,
       "promo": 34675.00,
@@ -412,6 +462,7 @@
     },
     {
       "pdf_id": 50,
+      "category": "Consumibles",
       "name": "BB'S G&G psbp botella 0.30 grs x 5600",
       "price": 44100,
       "promo": 41895.00,
@@ -420,6 +471,7 @@
     },
     {
       "pdf_id": 51,
+      "category": "Consumibles",
       "name": "BB'S G&G psbp 0.20 grs x 2700 Green TRACER",
       "price": 32000,
       "promo": 30400.00,
@@ -428,6 +480,7 @@
     },
     {
       "pdf_id": 52,
+      "category": "Consumibles",
       "name": "BB'S G&G psbp 0.25 grs x 2700 Green TRACER",
       "price": 36400,
       "promo": 34580.00,
@@ -436,6 +489,7 @@
     },
     {
       "pdf_id": 53,
+      "category": "Consumibles",
       "name": "BB'S G&G psbp 0.28 grs x 2700 Green TRACER",
       "price": 41400,
       "promo": 39330.00,
@@ -446,6 +500,7 @@
   "MAGAZINE G&G": [
     {
       "pdf_id": 54,
+      "category": "Cargadores y Accesorios de Réplicas",
       "name": "Cargador G&G modelo EGM G-08-030 200 Round",
       "price": 72700,
       "promo": 69065.00,
@@ -454,6 +509,7 @@
     },
     {
       "pdf_id": 55,
+      "category": "Cargadores y Accesorios de Réplicas",
       "name": "Cargador G&G modelo GPM92 27 Round",
       "price": 74400,
       "promo": 70680.00,
@@ -462,6 +518,7 @@
     },
     {
       "pdf_id": 56,
+      "category": "Cargadores y Accesorios de Réplicas",
       "name": "Cargador G&G modelo GPM1911 26 Round",
       "price": 74400,
       "promo": 70680.00,
@@ -470,6 +527,7 @@
     },
     {
       "pdf_id": 57,
+      "category": "Cargadores y Accesorios de Réplicas",
       "name": "Cargador G&G modelo ARP9 300Round",
       "price": 74400,
       "promo": 70680.00,
@@ -478,6 +536,7 @@
     },
     {
       "pdf_id": 58,
+      "category": "Cargadores y Accesorios de Réplicas",
       "name": "Cargador G&G modelo GR16 Midcap 120R",
       "price": 31400,
       "promo": 29830.00,
@@ -486,6 +545,7 @@
     },
     {
       "pdf_id": 59,
+      "category": "Cargadores y Accesorios de Réplicas",
       "name": "Cargador G&G modelo GTP9 HiCap 50R",
       "price": 122300,
       "promo": 116185.00,
@@ -494,6 +554,7 @@
     },
     {
       "pdf_id": 60,
+      "category": "Cargadores y Accesorios de Réplicas",
       "name": "Cargador G&G modelo ARP9 Drum 1500 R",
       "price": 152100,
       "promo": 144495.00,
@@ -502,6 +563,7 @@
     },
     {
       "pdf_id": 61,
+      "category": "Cargadores y Accesorios de Réplicas",
       "name": "Cargador G&G modelo ARP9 170 R",
       "price": 84300,
       "promo": 80085.00,
@@ -510,6 +572,7 @@
     },
     {
       "pdf_id": 62,
+      "category": "Cargadores y Accesorios de Réplicas",
       "name": "Cargador G&G bb speed loader",
       "price": 16500,
       "promo": 15675.00,
@@ -518,6 +581,7 @@
     },
     {
       "pdf_id": 63,
+      "category": "Cargadores y Accesorios de Réplicas",
       "name": "Cargador G&G bb speed loader transparente 420 Round",
       "price": 38000,
       "promo": 36100.00,
@@ -526,6 +590,7 @@
     },
     {
       "pdf_id": 64,
+      "category": "Cargadores y Accesorios de Réplicas",
       "name": "Grip G&G Negro ABS Injection",
       "price": 33100,
       "promo": 31445.00,
@@ -534,6 +599,7 @@
     },
     {
       "pdf_id": 65,
+      "category": "Cargadores y Accesorios de Réplicas",
       "name": "Grip G&G Negro ABS Injection c/picatiny",
       "price": 43800,
       "promo": 41610.00,
@@ -542,6 +608,7 @@
     },
     {
       "pdf_id": 66,
+      "category": "Cargadores y Accesorios de Réplicas",
       "name": "Grip G&G Arena ABS Injection c/picatiny",
       "price": 43800,
       "promo": 41610.00,
@@ -550,6 +617,7 @@
     },
     {
       "pdf_id": 67,
+      "category": "Cargadores y Accesorios de Réplicas",
       "name": "Adaptador para pistola trazador G&g 14MM",
       "price": 33100,
       "promo": 31445.00,
@@ -560,6 +628,7 @@
   "LENTES Y ANTIPARRAS PYRAMEX": [
     {
       "pdf_id": 68,
+      "category": "Equipamiento de Protección",
       "name": "Pyramex PMX-Treme Lente naranja espejado",
       "price": 18100,
       "promo": 17195.00,
@@ -568,6 +637,7 @@
     },
     {
       "pdf_id": 69,
+      "category": "Equipamiento de Protección",
       "name": "Pyramex PMX-Treme Lente gris / marco gris",
       "price": 18100,
       "promo": 17195.00,
@@ -576,6 +646,7 @@
     },
     {
       "pdf_id": 70,
+      "category": "Equipamiento de Protección",
       "name": "Pyramex PMX-Treme Lente transparente / marco gris",
       "price": 18100,
       "promo": 17195.00,
@@ -584,6 +655,7 @@
     },
     {
       "pdf_id": 71,
+      "category": "Equipamiento de Protección",
       "name": "Pyramex PMX-Treme Lente ambar / marco gris",
       "price": 18100,
       "promo": 17195.00,
@@ -592,6 +664,7 @@
     },
     {
       "pdf_id": 72,
+      "category": "Equipamiento de Protección",
       "name": "Pyramex PMX-Treme Lente azul espejado / marco gris",
       "price": 18100,
       "promo": 17195.00,
@@ -600,6 +673,7 @@
     },
     {
       "pdf_id": 73,
+      "category": "Equipamiento de Protección",
       "name": "Pyramex PMX-Treme Lente gris / marco camo",
       "price": 20600,
       "promo": 19570.00,
@@ -608,6 +682,7 @@
     },
     {
       "pdf_id": 74,
+      "category": "Equipamiento de Protección",
       "name": "Pyramex PMX-Treme Lente transparente espejado",
       "price": 20600,
       "promo": 19570.00,
@@ -616,6 +691,7 @@
     },
     {
       "pdf_id": 75,
+      "category": "Equipamiento de Protección",
       "name": "Pyramex Venture 2 Lente gris espejado",
       "price": 12600,
       "promo": 11970.00,
@@ -624,6 +700,7 @@
     },
     {
       "pdf_id": 76,
+      "category": "Equipamiento de Protección",
       "name": "Pyramex Highlander XP Lente gris Anti empaño",
       "price": 23700,
       "promo": 22515.00,
@@ -632,6 +709,7 @@
     },
     {
       "pdf_id": 77,
+      "category": "Equipamiento de Protección",
       "name": "Pyramex Highlander XP Lente transparente Anti empaño",
       "price": 22400,
       "promo": 21280.00,
@@ -640,6 +718,7 @@
     },
     {
       "pdf_id": 78,
+      "category": "Equipamiento de Protección",
       "name": "Pyramex Highlander XP Lente espejado rojo Anti empaño",
       "price": 22700,
       "promo": 21565.00,
@@ -648,6 +727,7 @@
     },
     {
       "pdf_id": 79,
+      "category": "Equipamiento de Protección",
       "name": "Pyramex XS3 Plus Lente gris Anti empaño",
       "price": 19400,
       "promo": 18430.00,
@@ -656,6 +736,7 @@
     },
     {
       "pdf_id": 80,
+      "category": "Equipamiento de Protección",
       "name": "Pyramex XS3 Plus Lente transparente Anti empaño",
       "price": 17900,
       "promo": 17005.00,
@@ -664,6 +745,7 @@
     },
     {
       "pdf_id": 81,
+      "category": "Equipamiento de Protección",
       "name": "Pyramex XSG Kit Ballistic Lente intercambiables transparente / ambar / gris",
       "price": 83300,
       "promo": 79135.00,
@@ -672,6 +754,7 @@
     },
     {
       "pdf_id": 82,
+      "category": "Equipamiento de Protección",
       "name": "Pyramex Intruder Lente ambar / Marco ambar",
       "price": 6300,
       "promo": 5985.00,
@@ -680,6 +763,7 @@
     },
     {
       "pdf_id": 83,
+      "category": "Equipamiento de Protección",
       "name": "Pyramex Intruder Lente transparente / Marco transparente",
       "price": 5600,
       "promo": 5320.00,
@@ -688,6 +772,7 @@
     },
     {
       "pdf_id": 84,
+      "category": "Equipamiento de Protección",
       "name": "Pyramex Intruder Lente gris / Marco gris",
       "price": 6300,
       "promo": 5985.00,
@@ -696,6 +781,7 @@
     },
     {
       "pdf_id": 85,
+      "category": "Equipamiento de Protección",
       "name": "Pyramex Intruder Lente espejado / Marco negro",
       "price": 9500,
       "promo": 9025.00,
@@ -704,6 +790,7 @@
     },
     {
       "pdf_id": 86,
+      "category": "Equipamiento de Protección",
       "name": "Antiparra Pyramex V2G Lente transparente Anti empaño",
       "price": 25200,
       "promo": 23940.00,
@@ -712,6 +799,7 @@
     },
     {
       "pdf_id": 87,
+      "category": "Equipamiento de Protección",
       "name": "Antiparra Pyramex V2G Lente humo Anti empaño",
       "price": 26600,
       "promo": 25270.00,
@@ -720,6 +808,7 @@
     },
     {
       "pdf_id": 88,
+      "category": "Equipamiento de Protección",
       "name": "Lente Venture Gear Tactical Semtex 2.0",
       "price": 62600,
       "promo": 59470.00,
@@ -728,6 +817,7 @@
     },
     {
       "pdf_id": 89,
+      "category": "Equipamiento de Protección",
       "name": "Lente Venture Gear Tactical Howitzer",
       "price": 62600,
       "promo": 59470.00,
@@ -736,6 +826,7 @@
     },
     {
       "pdf_id": 90,
+      "category": "Equipamiento de Protección",
       "name": "Lente Venture Gear Tactical Overwatch",
       "price": 62600,
       "promo": 59470.00,
@@ -744,6 +835,7 @@
     },
     {
       "pdf_id": 91,
+      "category": "Equipamiento de Protección",
       "name": "Lente Pyramex Modelo Dropzone. Kit con lentes intercambiables.",
       "price": 69400,
       "promo": 65930.00,
@@ -752,6 +844,7 @@
     },
     {
       "pdf_id": 92,
+      "category": "Equipamiento de Protección",
       "name": "Lente Pyramex Modelo I-Force color ambar",
       "price": 53600,
       "promo": 50920.00,
@@ -760,6 +853,7 @@
     },
     {
       "pdf_id": 93,
+      "category": "Equipamiento de Protección",
       "name": "Lente Pyramex Modelo Loadout",
       "price": 83500,
       "promo": 79325.00,
@@ -770,6 +864,7 @@
   "WALKERS PROTECTORES AUDITIVOS": [
     {
       "pdf_id": 94,
+      "category": "Equipamiento de Protección",
       "name": "Walkers Protector Auditivo 31 decibeles. Modelo Slim Color Negro ultra liviano.",
       "price": 50400,
       "promo": 47880.00,
@@ -778,6 +873,7 @@
     },
     {
       "pdf_id": 95,
+      "category": "Equipamiento de Protección",
       "name": "Walkers Protector Auditivo 31 decibeles. Modelo Slim, color CAM",
       "price": 64600,
       "promo": 61370.00,
@@ -786,6 +882,7 @@
     },
     {
       "pdf_id": 96,
+      "category": "Equipamiento de Protección",
       "name": "Walkers Razor Protector Auditivo Electrónico. 2 microfono.",
       "price": 185100,
       "promo": 175845.00,
@@ -794,6 +891,7 @@
     },
     {
       "pdf_id": 97,
+      "category": "Equipamiento de Protección",
       "name": "Walkers Razor Protector Auditivo Low Profile 27 dc. Negro",
       "price": 76800,
       "promo": 72960.00,
@@ -802,6 +900,7 @@
     },
     {
       "pdf_id": 98,
+      "category": "Equipamiento de Protección",
       "name": "Walkers Razor Protector Auditivo Electrónico. 2 microfono. Colo",
       "price": 185100,
       "promo": 175845.00,
@@ -810,6 +909,7 @@
     },
     {
       "pdf_id": 99,
+      "category": "Equipamiento de Protección",
       "name": "Walkers Razor Protector Auditivo Bluetooth",
       "price": 143900,
       "promo": 136705.00,
