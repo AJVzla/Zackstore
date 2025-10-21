@@ -144,7 +144,10 @@ const [wishlist, setWishlist] = useState(() => {
                     </div>
 
                     <h3 className="font-bold text-sm mb-1">{p.name}</h3>
-                    <div className="flex gap-2 items-baseline">
+                    <div className="flex w-100 justify-end py-2">
+                      <a href={p.link} target="_blank" rel="noreferrer" class="underline text-lime-400 text-xs ">Ver Producto</a>
+                      </div>
+                    <div className="flex gap-2 items-baseline justify-end">
                       <span className="line-through text-gray-500 text-xs">
                         ${formatPrice(p.price)}
                       </span>
