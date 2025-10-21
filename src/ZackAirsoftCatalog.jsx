@@ -313,34 +313,35 @@ export default function ZackAirsoftCatalog() {
                   <span className="text-lime-400 font-semibold">
                     Total: ${formatPrice(total)}
                   </span>
+
                   <button
                     className="bg-lime-400 text-black px-4 py-1 rounded font-semibold hover:bg-lime-500"
-                    onClick={() => {
-                      const phone = "5491154100534";
-                      const message =
-                        "🛒 *Nueva compra desde Zack Airsoft Store!*\n\n" +
-                        cart
-                          .map(
-                            (p, i) =>
-                              `${i + 1}. ${p.name}\n   💵 Precio: $${formatPrice(
-                                p.promo
-                              )}`
-                          )
-                          .join("\n") +
-                        `\n\n💰 *Total:* $${formatPrice(
-                          total
-                        )}\n\nGracias por tu compra! 🔫`;
+                    onClick={(e) => {
+                      e.preventDefault(); // evita cualquier doble acción
 
-                      const encoded = encodeURIComponent(message);
-                      window.open(
-                        `https://wa.me/${phone}?text=${encoded}`,
-                        "_blank"
-                      );
+                      const phone = "5491154100534";
+                      const message = [
+                        "🛒 *Nueva compra desde Zack Airsoft Store!*",
+                        "",
+                        ...cart.map(
+                          (p, i) => `${i + 1}. ${p.name}\n   💵 Precio: $${formatPrice(p.promo)}`
+                        ),
+                        "",
+                        `💰 *Total:* $${formatPrice(total)}`,
+                        "",
+                        "Gracias por tu compra! 🔫",
+                      ].join("\n");
+
+                      const encodedMessage = encodeURIComponent(message);
+                      const waUrl = `https://api.whatsapp.com/send?phone=${phone}&text=${encodedMessage}`;
+
+                      window.open(waUrl, "_blank", "noopener,noreferrer");
                     }}
                   >
                     Finalizar compra
                   </button>
                 </div>
+
               </>
             )}
           </div>
