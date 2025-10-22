@@ -100,12 +100,12 @@ export default function ZackAirsoftCatalog() {
             >
               💙 Favoritos ({wishlist.length})
             </button>
-            <button
+            {/* <button
               onClick={() => setShowCart(true)}
               className="text-lime-400 hover:text-white"
             >
               🛒 Carrito ({cart.length})
-            </button>
+            </button> */}
           </div>
 
           {/* Mobile button */}
@@ -200,7 +200,7 @@ export default function ZackAirsoftCatalog() {
                       className="relative border border-lime-400 rounded-lg p-3 bg-zinc-900 text-white overflow-hidden group hover:shadow-lg hover:shadow-lime-400/30 transition-all duration-300"
                     >
                       {/* Imagen */}
-                      <div className="relative h-40 flex items-center justify-center mb-3 bg-gray-800 rounded">
+                      <div className="relative h-40 flex items-center justify-center mb-3 bg-gray-800 rounded bg-white">
                         {p.image ? (
                           <img
                             src={p.image}
@@ -251,13 +251,17 @@ export default function ZackAirsoftCatalog() {
                         </a>
                       </div>
                       <div className="flex gap-2 items-baseline justify-end">
+                      {p.price ? (
                         <span className="line-through text-gray-500 text-xs">
                           ${formatPrice(p.price)}
                         </span>
-                        <span className="text-lime-400 font-semibold text-lg">
-                          ${formatPrice(p.promo)}
-                        </span>
-                      </div>
+                      ) : null}
+                       {p.promo ? (
+                      <span className="text-lime-400 font-semibold text-lg">
+                        ${formatPrice(p.promo)}
+                      </span>
+                       ) : null}
+                    </div>
                     </article>
                   );
                 })}
@@ -385,6 +389,38 @@ export default function ZackAirsoftCatalog() {
           </div>
         </div>
       )}
+      {/* 🛒 Botón flotante de carrito */}
+<button
+  onClick={() => setShowCart(true)}
+  className="fixed bottom-6 right-6 bg-lime-400 text-black p-4 rounded-full shadow-lg hover:bg-lime-500 transition-all z-[10000]"
+  aria-label="Abrir carrito"
+>
+  <div className="relative">
+    {/* Ícono del carrito */}
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+      strokeWidth="2"
+      stroke="currentColor"
+      className="w-6 h-6"
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-1.293 2.293a1 1 0 0 0 .707 1.707h12.172a1 1 0 0 0 .707-1.707L17 13M9 21h.01M15 21h.01"
+      />
+    </svg>
+
+    {/* 🔴 Notificación de cantidad */}
+    {cart.length > 0 && (
+      <span className="absolute -top-6 -right-4 bg-red-600 text-white text-xs font-bold rounded-full px-2 py-[2px] shadow-md">
+        {cart.length}
+      </span>
+    )}
+  </div>
+</button>
+
     </div>
   );
 }
